@@ -17,7 +17,7 @@ info: |
       iv. Return true.
   ...
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, Reflect, TypedArray]
+features: [Reflect, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

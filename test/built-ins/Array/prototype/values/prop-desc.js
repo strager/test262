@@ -8,6 +8,7 @@ info: |
     B.2 has the attributes { [[Writable]]: true, [[Enumerable]]: false,
     [[Configurable]]: true } unless otherwise specified.
 includes: [propertyHelper.js]
+features: [Array.prototype.values]
 ---*/
 
 assert.sameValue(typeof Array.prototype.values, 'function');

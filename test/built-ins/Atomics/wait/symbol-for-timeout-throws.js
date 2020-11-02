@@ -12,7 +12,7 @@ info: |
 
     Symbol --> Throw a TypeError exception.
 
-features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray]
+features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 ---*/
 
 var buffer = new SharedArrayBuffer(1024);

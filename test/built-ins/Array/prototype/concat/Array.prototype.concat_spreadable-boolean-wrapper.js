@@ -7,7 +7,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat Symbol.isConcatSpreadable boolean wrapper
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var bool = new Boolean(true)
 // Boolean wrapper objects are not concat-spreadable by default

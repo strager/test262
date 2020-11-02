@@ -13,7 +13,7 @@ info: |
               mappedValue).
           x. If defineStatus is an abrupt completion, return
              IteratorClose(iterator, defineStatus).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var C = function() {

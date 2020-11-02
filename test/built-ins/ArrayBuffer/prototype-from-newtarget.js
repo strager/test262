@@ -18,7 +18,7 @@ info: |
        «[[ArrayBufferData]], [[ArrayBufferByteLength]]» ).
     2. ReturnIfAbrupt(obj).
     ...
-features: [Reflect.construct]
+features: [ArrayBuffer, Reflect, Reflect.construct]
 ---*/
 
 var arrayBuffer = Reflect.construct(ArrayBuffer, [8], Object);

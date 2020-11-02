@@ -5,7 +5,7 @@
 /*---
 esid: sec-array.prototype.concat
 description: Array.prototype.concat array like length to string throws
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 function MyError() {}
 var obj = {

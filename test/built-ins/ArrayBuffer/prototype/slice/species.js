@@ -15,7 +15,7 @@ info: |
   16. ReturnIfAbrupt(new).
   ...
   26. Return new.
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var resultBuffer;

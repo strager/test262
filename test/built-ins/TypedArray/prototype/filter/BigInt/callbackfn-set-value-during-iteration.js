@@ -13,7 +13,7 @@ info: |
     c. Let selected be ToBoolean(? Call(callbackfn, T, « kValue, k, O »)).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Reflect.set, TypedArray]
+features: [BigInt, Reflect, Reflect.set, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

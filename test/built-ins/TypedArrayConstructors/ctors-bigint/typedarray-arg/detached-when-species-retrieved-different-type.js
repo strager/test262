@@ -27,7 +27,7 @@ info: |
        « [[ArrayBufferData]], [[ArrayBufferByteLength]] »).
     ...
 includes: [testBigIntTypedArray.js, detachArrayBuffer.js]
-features: [BigInt, TypedArray, Symbol.species]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

@@ -14,7 +14,7 @@ info: |
         1. Let nextValue be ? IteratorValue(next).
   ...
 includes: [testTypedArray.js]
-features: [Symbol.iterator, TypedArray]
+features: [Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var iter = {};

@@ -21,7 +21,7 @@ info: |
   ...
 
 includes: [nans.js]
-features: [Atomics, SharedArrayBuffer, TypedArray]
+features: [Atomics, SharedArrayBuffer, TypedArray, arrow-function]
 ---*/
 
 const i32a = new Int32Array(

@@ -49,7 +49,7 @@ info: |
     a. Let result be ? Call(exoticToPrim, input, « hint »).
   ...
 includes: [testTypedArray.js]
-features: [Symbol.toPrimitive, TypedArray]
+features: [Symbol, Symbol.toPrimitive, TypedArray]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

@@ -21,7 +21,7 @@ info: |
         3. If exists is true, then
           a. Let subElement be ? Get(E, P).
     [...]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 
 var spreadable = {

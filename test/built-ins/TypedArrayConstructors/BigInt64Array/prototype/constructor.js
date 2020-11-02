@@ -12,7 +12,7 @@ info: |
 
   17 ECMAScript Standard Built-in Objects
 includes: [propertyHelper.js]
-features: [BigInt]
+features: [BigInt, TypedArray]
 ---*/
 
 verifyProperty(BigInt64Array.prototype, "constructor", {

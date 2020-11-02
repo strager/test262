@@ -11,6 +11,7 @@ info: |
   ...
   8. If relativeStart < 0, let first be max((len + relativeStart),0); else let first be min(relativeStart, len).
   ...
+features: [ArrayBuffer]
 ---*/
 
 var arrayBuffer = new ArrayBuffer(8);

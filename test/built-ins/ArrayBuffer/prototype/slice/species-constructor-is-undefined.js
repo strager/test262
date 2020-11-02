@@ -19,6 +19,7 @@ info: |
     3. ReturnIfAbrupt(C).
     4. If C is undefined, return defaultConstructor.
     ...
+features: [ArrayBuffer]
 ---*/
 
 var arrayBuffer = new ArrayBuffer(8);

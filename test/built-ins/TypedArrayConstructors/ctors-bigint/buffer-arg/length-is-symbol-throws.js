@@ -16,7 +16,7 @@ info: |
     a. Let newLength be ? ToLength(length).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol, TypedArray]
+features: [ArrayBuffer, BigInt, Symbol, TypedArray]
 ---*/
 
 var buffer = new ArrayBuffer(8);

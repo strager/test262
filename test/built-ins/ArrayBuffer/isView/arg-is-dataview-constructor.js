@@ -11,7 +11,7 @@ info: |
   1. If Type(arg) is not Object, return false.
   2. If arg has a [[ViewedArrayBuffer]] internal slot, return true.
   3. Return false.
-features: [DataView]
+features: [ArrayBuffer, DataView]
 ---*/
 
 assert.sameValue(ArrayBuffer.isView(DataView), false, "DataView");

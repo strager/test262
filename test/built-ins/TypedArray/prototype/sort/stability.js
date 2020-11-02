@@ -6,7 +6,7 @@ description: Stability of %TypedArray%.prototype.sort.
 info: |
   https://github.com/tc39/ecma262/pull/1433
 includes: [testTypedArray.js, compareArray.js]
-features: [TypedArray]
+features: [TypedArray, arrow-function]
 ---*/
 
 // Treat 0..3, 4..7, etc. as equal.

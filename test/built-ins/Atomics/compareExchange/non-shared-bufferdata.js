@@ -6,7 +6,7 @@ esid: sec-atomics.compareExchange
 description: >
   Atomics.compareExchange will operate on TA when TA.buffer is not a SharedArrayBuffer
 includes: [testTypedArray.js]
-features: [ArrayBuffer, Atomics, TypedArray]
+features: [ArrayBuffer, Atomics, TypedArray, arrow-function]
 ---*/
 testWithAtomicsFriendlyTypedArrayConstructors(TA => {
   const view = new TA(

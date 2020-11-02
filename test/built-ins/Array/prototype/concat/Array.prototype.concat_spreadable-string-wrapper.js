@@ -7,7 +7,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat Symbol.isConcatSpreadable string wrapper
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var str1 = new String("yuck\uD83D\uDCA9")
 // String wrapper objects are not concat-spreadable by default

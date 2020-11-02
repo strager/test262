@@ -16,7 +16,7 @@ info: |
   7. Let oldLenDesc be OrdinaryGetOwnProperty(A, "length").
   [...]
   12. If oldLenDesc.[[Writable]] is false, return false.
-features: [Symbol, Symbol.toPrimitive, Reflect, Reflect.set]
+features: [Reflect, Reflect.set, Symbol, Symbol.toPrimitive]
 includes: [compareArray.js]
 ---*/
 

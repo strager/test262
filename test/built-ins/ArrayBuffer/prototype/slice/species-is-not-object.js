@@ -20,7 +20,7 @@ info: |
     8. If S is either undefined or null, return defaultConstructor.
     9. If IsConstructor(S) is true, return S.
     10. Throw a TypeError exception.
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var speciesConstructor = {};

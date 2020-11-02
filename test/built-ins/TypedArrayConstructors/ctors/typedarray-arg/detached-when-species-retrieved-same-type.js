@@ -31,7 +31,7 @@ info: |
        « [[ArrayBufferData]], [[ArrayBufferByteLength]] »).
     ...
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [TypedArray, Symbol.species]
+features: [Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

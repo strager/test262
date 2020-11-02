@@ -31,7 +31,7 @@ info: |
   ...
   12. Return A.
 includes: [testTypedArray.js]
-features: [TypedArray]
+features: [ArrayBuffer, Reflect, Reflect.construct, TypedArray]
 ---*/
 
 var buffer = new ArrayBuffer(8);

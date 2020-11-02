@@ -22,7 +22,7 @@ info: |
   1. If Type(O) is not Object, throw a TypeError exception.
   2. If O does not have an internalSlot internal slot, throw a TypeError exception.
 
-features: [Atomics.waitAsync, arrow-function, Atomics]
+features: [Atomics, Atomics.waitAsync, arrow-function]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 

@@ -17,7 +17,7 @@ info: |
        b. If C is null, let C be undefined.
     [...]
     10. Return ? Construct(C, « length »).
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var Ctor = function() {

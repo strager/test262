@@ -18,7 +18,7 @@ info: |
   7. If IsConstructor(constructor) is false, throw a TypeError exception.
   ...
 includes: [isConstructor.js]
-features: [Reflect.construct, Atomics, arrow-function, TypedArray, SharedArrayBuffer]
+features: [Atomics, Reflect.construct, SharedArrayBuffer, TypedArray, arrow-function]
 ---*/
 
 assert.sameValue(isConstructor(Atomics.sub), false, 'isConstructor(Atomics.sub) must return false');

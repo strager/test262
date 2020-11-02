@@ -12,6 +12,7 @@ info: |
   has the attributes { [[Writable]]: true, [[Enumerable]]: false,
   [[Configurable]]: true } unless otherwise specified.
 includes: [propertyHelper.js]
+features: [ArrayBuffer]
 ---*/
 
 assert.sameValue(typeof ArrayBuffer, "function", "`typeof ArrayBuffer` is `'function'`");

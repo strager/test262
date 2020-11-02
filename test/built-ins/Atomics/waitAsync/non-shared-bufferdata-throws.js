@@ -18,7 +18,7 @@ info: |
   5. If waitable is true, then
     a. If typeName is not "Int32Array" or "BigInt64Array", throw a TypeError exception.
 
-features: [Atomics.waitAsync, ArrayBuffer, Atomics, TypedArray, arrow-function]
+features: [ArrayBuffer, Atomics, Atomics.waitAsync, TypedArray, arrow-function]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i32a = new Int32Array(

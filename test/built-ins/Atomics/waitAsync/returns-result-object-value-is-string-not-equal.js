@@ -22,7 +22,7 @@ info: |
   Perform ! CreateDataPropertyOrThrow(_resultObject_, *"value"*, _promiseCapability_.[[Promise]]).
   Return _resultObject_.
 
-features: [Atomics.waitAsync, TypedArray, SharedArrayBuffer, destructuring-binding, Atomics]
+features: [Atomics, Atomics.waitAsync, SharedArrayBuffer, TypedArray, destructuring-binding]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 

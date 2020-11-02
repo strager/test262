@@ -15,7 +15,7 @@ info: |
   6. Let q be ? ToNumber(timeout).
 
 flags: [async]
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, Atomics, destructuring-binding, arrow-function]
+features: [Atomics, Atomics.waitAsync, SharedArrayBuffer, TypedArray, arrow-function, destructuring-binding]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i32a = new Int32Array(

@@ -18,7 +18,7 @@ info: |
     c. If newByteLength < 0, throw a RangeError exception.
   ...
 includes: [testTypedArray.js]
-features: [TypedArray]
+features: [ArrayBuffer, TypedArray]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

@@ -24,7 +24,7 @@ info: |
     f. Perform SetValueInBuffer(targetBuffer, targetByteIndex, targetType, value, true, Unordered).
     [...]
 includes: [testTypedArray.js, compareArray.js]
-features: [TypedArray, Symbol]
+features: [Symbol, TypedArray]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

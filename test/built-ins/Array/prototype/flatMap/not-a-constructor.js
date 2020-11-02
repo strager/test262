@@ -18,7 +18,7 @@ info: |
   7. If IsConstructor(constructor) is false, throw a TypeError exception.
   ...
 includes: [isConstructor.js]
-features: [Reflect.construct, Array.prototype.flatMap, arrow-function]
+features: [Array.prototype.flatMap, Reflect.construct, arrow-function]
 ---*/
 
 assert.sameValue(

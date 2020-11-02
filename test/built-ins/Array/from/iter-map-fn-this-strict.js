@@ -18,7 +18,7 @@ info: |
           [...]
           vii. If mapping is true, then
                1. Let mappedValue be Call(mapfn, T, «nextValue, k»).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 flags: [onlyStrict]
 ---*/
 

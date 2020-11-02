@@ -15,7 +15,7 @@ info: |
   1. Let usingIterator be ? GetMethod(items, @@iterator).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.iterator, TypedArray]
+features: [BigInt, Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var iter = {};

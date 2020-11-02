@@ -16,7 +16,7 @@ info: |
       ii. Let len be ? LengthOfArrayLike(E).
       iii. If n + len > 2^53 - 1, throw a TypeError exception.
     [...]
-features: [Symbol.isConcatSpreadable, Proxy]
+features: [Proxy, Symbol, Symbol.isConcatSpreadable]
 ---*/
 
 var spreadable = {};

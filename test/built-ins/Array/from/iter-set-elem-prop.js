@@ -11,7 +11,7 @@ info: |
           [...]
           ix. Let defineStatus be CreateDataPropertyOrThrow(A, Pk,
               mappedValue).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var items = {};

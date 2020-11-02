@@ -15,7 +15,7 @@ info: |
   exception.
   ...
 includes: [testTypedArray.js]
-features: [TypedArray]
+features: [ArrayBuffer, DataView, TypedArray]
 ---*/
 
 var subarray = TypedArray.prototype.subarray;

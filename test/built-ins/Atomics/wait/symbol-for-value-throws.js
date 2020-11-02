@@ -16,7 +16,7 @@ info: |
 
     Symbol --> Throw a TypeError exception.
 
-features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray]
+features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 ---*/
 
 const i32a = new Int32Array(

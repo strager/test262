@@ -8,7 +8,7 @@ description: >
 info: |
   22.2.3.19 %TypedArray%.prototype.map ( callbackfn [ , thisArg ] )
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Reflect.set, TypedArray]
+features: [BigInt, Reflect, Reflect.set, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

@@ -6,7 +6,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat array like primitive non number length
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var obj = {
   "1": "A",

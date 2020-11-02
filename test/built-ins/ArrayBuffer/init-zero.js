@@ -18,7 +18,7 @@ info: |
        impossible to create such a Data Block, throw a RangeError exception.
     3. Set all of the bytes of db to 0.
     4. Return db. 
-features: [DataView]
+features: [ArrayBuffer, DataView]
 ---*/
 
 var view = new DataView(new ArrayBuffer(9));

@@ -23,7 +23,7 @@ info: |
        b. Let target be the value of the [[ProxyTarget]] internal slot of
           argument.
        c. Return ? IsArray(target).
-features: [Proxy, Symbol.species]
+features: [Proxy, Symbol, Symbol.species]
 ---*/
 
 var array = [];

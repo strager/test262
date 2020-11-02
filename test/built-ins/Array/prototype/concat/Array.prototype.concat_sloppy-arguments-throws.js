@@ -6,7 +6,7 @@
 /*---
 esid: sec-array.prototype.concat
 description: Array.prototype.concat sloppy arguments throws
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 function MyError() {}
 var args = (function(a) {

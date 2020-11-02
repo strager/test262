@@ -23,7 +23,7 @@ info: |
     f. Perform SetValueInBuffer(targetBuffer, targetByteIndex, targetType, value, true, Unordered).
     [...]
 includes: [testBigIntTypedArray.js, compareArray.js]
-features: [BigInt, TypedArray, Symbol]
+features: [BigInt, Symbol, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

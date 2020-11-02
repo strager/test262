@@ -8,7 +8,7 @@ esid: sec-array.prototype.concat
 description: Array.prototype.concat sloppy arguments with dupes
 flags: [noStrict]
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var args = (function(a, a, a) {
   return arguments;

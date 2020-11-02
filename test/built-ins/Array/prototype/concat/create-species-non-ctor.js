@@ -18,7 +18,7 @@ info: |
        b. If C is null, let C be undefined.
     [...]
     9. If IsConstructor(C) is false, throw a TypeError exception.
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var a = [];

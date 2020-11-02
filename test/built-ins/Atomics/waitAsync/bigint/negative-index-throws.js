@@ -15,7 +15,7 @@ info: |
   1. Let buffer be ? ValidateSharedIntegerTypedArray(typedArray, true).
   2. Let i be ? ValidateAtomicAccess(typedArray, index).
 
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, Atomics, BigInt]
+features: [Atomics, Atomics.waitAsync, BigInt, SharedArrayBuffer, TypedArray]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(

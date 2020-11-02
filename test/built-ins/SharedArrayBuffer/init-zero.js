@@ -5,7 +5,7 @@
 /*---
 esid: sec-createsharedbytedatablock
 description: All bytes are initialized to zero
-features: [SharedArrayBuffer, DataView]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var view = new DataView(new SharedArrayBuffer(9));

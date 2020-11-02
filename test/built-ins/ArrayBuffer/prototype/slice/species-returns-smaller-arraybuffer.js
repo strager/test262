@@ -16,7 +16,7 @@ info: |
   ...
   20. If the value of new’s [[ArrayBufferByteLength]] internal slot < newLen, throw a TypeError exception.
   ...
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var speciesConstructor = {};

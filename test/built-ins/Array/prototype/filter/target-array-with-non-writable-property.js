@@ -16,7 +16,7 @@ info: |
       iii. If selected is true, then
         1. Perform ? CreateDataPropertyOrThrow(A, ! ToString(to), kValue).
         ...
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 includes: [propertyHelper.js]
 ---*/
 

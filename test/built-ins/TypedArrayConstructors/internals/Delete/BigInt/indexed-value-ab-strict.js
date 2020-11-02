@@ -19,7 +19,7 @@ info: |
         ...
 flags: [onlyStrict]
 includes: [testBigIntTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, BigInt, TypedArray]
+features: [BigInt, TypedArray, align-detached-buffer-semantics-with-web-reality, arrow-function, computed-property-names]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

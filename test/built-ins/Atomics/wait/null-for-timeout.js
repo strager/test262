@@ -12,7 +12,7 @@ info: |
 
     Null -> Return +0.
 
-features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray]
+features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 flags: [CanBlockIsTrue]
 ---*/
 

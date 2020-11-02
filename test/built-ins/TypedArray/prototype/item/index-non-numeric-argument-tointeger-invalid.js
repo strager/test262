@@ -10,7 +10,7 @@ info: |
   Let relativeIndex be ? ToInteger(index).
 
 includes: [testTypedArray.js]
-features: [TypedArray, TypedArray.prototype.item]
+features: [Symbol, TypedArray, TypedArray.prototype.item, arrow-function]
 ---*/
 assert.sameValue(
   typeof TypedArray.prototype.item,

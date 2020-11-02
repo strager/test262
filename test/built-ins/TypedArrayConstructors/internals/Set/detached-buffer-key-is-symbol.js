@@ -12,7 +12,7 @@ info: |
     ...
   3. Return ? OrdinarySet(O, P, V, Receiver).
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [align-detached-buffer-semantics-with-web-reality, Symbol, Reflect, TypedArray]
+features: [Reflect, Reflect.set, Symbol, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 let s = Symbol("1");

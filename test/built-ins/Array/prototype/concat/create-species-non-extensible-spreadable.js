@@ -26,7 +26,7 @@ info: |
   [...]
   3. Let success be ? CreateDataProperty(O, P, V).
   4. If success is false, throw a TypeError exception.
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var A = function(_length) {

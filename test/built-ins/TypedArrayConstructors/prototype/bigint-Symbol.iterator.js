@@ -5,7 +5,7 @@ esid: sec-%typedarray%.prototype-@@iterator
 description: >
   _TypedArray_.prototype has no own property @@iterator
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.iterator, TypedArray]
+features: [BigInt, Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

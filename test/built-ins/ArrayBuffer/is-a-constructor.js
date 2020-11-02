@@ -16,7 +16,7 @@ info: |
   If argument has a [[Construct]] internal method, return true.
   Return false.
 includes: [isConstructor.js]
-features: [Reflect.construct, ArrayBuffer]
+features: [ArrayBuffer, Reflect.construct]
 ---*/
 
 assert.sameValue(isConstructor(ArrayBuffer), true, 'isConstructor(ArrayBuffer) must return true');

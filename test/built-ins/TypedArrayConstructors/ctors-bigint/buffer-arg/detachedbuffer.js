@@ -10,7 +10,7 @@ info: |
   9. If IsDetachedBuffer(buffer) is true, throw a TypeError exception.
   ...
 includes: [testBigIntTypedArray.js, detachArrayBuffer.js]
-features: [BigInt, TypedArray]
+features: [ArrayBuffer, BigInt, TypedArray, arrow-function]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

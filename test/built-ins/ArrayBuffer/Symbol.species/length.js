@@ -20,7 +20,7 @@ info: |
     object has the attributes { [[Writable]]: false, [[Enumerable]]: false,
     [[Configurable]]: true }.
 includes: [propertyHelper.js]
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(ArrayBuffer, Symbol.species);

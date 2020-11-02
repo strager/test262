@@ -22,7 +22,7 @@ info: |
     1. If Type(O) is not Object, return false.
     2. Let spreadable be Get(O, @@isConcatSpreadable).
     3. ReturnIfAbrupt(spreadable).
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 
 var o = {};

@@ -28,7 +28,7 @@ info: |
     2. Let spreadable be Get(O, @@isConcatSpreadable).
     3. ReturnIfAbrupt(spreadable).
     4. If spreadable is not undefined, return ToBoolean(spreadable).
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 
 var item = [1, 2];

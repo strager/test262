@@ -11,6 +11,7 @@ info: |
   ...
   12. Let newLen be max(final-first,0).
   ...
+features: [ArrayBuffer]
 ---*/
 
 var arrayBuffer = new ArrayBuffer(8);

@@ -16,7 +16,7 @@ info: |
       [[Enumerable]]: true, [[Configurable]]: true}.
   ...
 includes: [testTypedArray.js, propertyHelper.js]
-features: [align-detached-buffer-semantics-with-web-reality, TypedArray]
+features: [TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

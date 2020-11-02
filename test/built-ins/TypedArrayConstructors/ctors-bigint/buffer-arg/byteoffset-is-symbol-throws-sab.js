@@ -16,7 +16,7 @@ info: |
   7. Let offset be ? ToInteger(byteOffset).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol, SharedArrayBuffer, TypedArray]
+features: [BigInt, SharedArrayBuffer, Symbol, TypedArray]
 ---*/
 
 var byteOffset = Symbol("1");

@@ -7,7 +7,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat strict arguments
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var args = (function(a, b, c) {
   "use strict";

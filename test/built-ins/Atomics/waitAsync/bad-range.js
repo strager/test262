@@ -17,7 +17,7 @@ info: |
   ...
 
 includes: [testAtomics.js]
-features: [Atomics.waitAsync, Atomics, SharedArrayBuffer, ArrayBuffer, DataView, Symbol, TypedArray]
+features: [ArrayBuffer, Atomics, Atomics.waitAsync, DataView, SharedArrayBuffer, Symbol, TypedArray]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i32a = new Int32Array(

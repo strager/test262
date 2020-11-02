@@ -19,7 +19,7 @@ info: |
   Return ? Get(O, ! ToString(k)).
 
 includes: [testTypedArray.js]
-features: [TypedArray, TypedArray.prototype.item]
+features: [TypedArray, TypedArray.prototype.item, arrow-function]
 ---*/
 assert.sameValue(
   typeof TypedArray.prototype.item,

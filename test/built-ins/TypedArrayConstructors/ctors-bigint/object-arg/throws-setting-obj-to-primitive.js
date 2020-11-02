@@ -49,7 +49,7 @@ info: |
     a. Let result be ? Call(exoticToPrim, input, « hint »).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.toPrimitive, TypedArray]
+features: [BigInt, Symbol, Symbol.toPrimitive, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

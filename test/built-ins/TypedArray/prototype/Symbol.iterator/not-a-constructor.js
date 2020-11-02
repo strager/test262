@@ -18,7 +18,7 @@ info: |
   7. If IsConstructor(constructor) is false, throw a TypeError exception.
   ...
 includes: [isConstructor.js, testTypedArray.js]
-features: [Reflect.construct, Symbol, Symbol.iterator, arrow-function, TypedArray]
+features: [Reflect.construct, Symbol, Symbol.iterator, TypedArray, arrow-function]
 ---*/
 
 assert.sameValue(

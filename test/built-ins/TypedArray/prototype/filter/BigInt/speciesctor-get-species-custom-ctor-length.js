@@ -24,7 +24,7 @@ info: |
     argumentList[0], throw a TypeError exception.
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

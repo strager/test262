@@ -5,7 +5,7 @@
 esid: sec-array.prototype.splice
 description: >
   Ensure the correct property traps are called on the new array.
-features: [Proxy, Symbol.species]
+features: [Proxy, Symbol, Symbol.species]
 includes: [compareArray.js]
 ---*/
 

@@ -10,6 +10,7 @@ info: |
 
   1. If Type(arg) is not Object, return false.
   ...
+features: [ArrayBuffer]
 ---*/
 
 assert.sameValue(ArrayBuffer.isView(), false);

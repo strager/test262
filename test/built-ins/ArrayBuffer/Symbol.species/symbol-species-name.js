@@ -9,7 +9,7 @@ info: |
 
   ...
   The value of the name property of this function is "get [Symbol.species]".
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 includes: [propertyHelper.js]
 ---*/
 

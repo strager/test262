@@ -26,7 +26,7 @@ info: |
   3. Let proto be ? Get(constructor, "prototype").
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Reflect, TypedArray]
+features: [BigInt, Reflect, Reflect.construct, TypedArray]
 ---*/
 
 var newTarget = function() {}.bind(null);

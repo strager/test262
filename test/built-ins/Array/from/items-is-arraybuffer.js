@@ -10,6 +10,7 @@ info: |
   4. Let usingIterator be GetMethod(items, @@iterator).
   5. ReturnIfAbrupt(usingIterator).
   ...
+features: [ArrayBuffer]
 ---*/
 
 var arrayBuffer = new ArrayBuffer(7);

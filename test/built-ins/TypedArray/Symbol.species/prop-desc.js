@@ -10,7 +10,7 @@ info: |
   %TypedArray%[@@species] is an accessor property whose set accessor function
   is undefined.
 includes: [testTypedArray.js]
-features: [Symbol.species, TypedArray]
+features: [Symbol, Symbol.species, TypedArray]
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(TypedArray, Symbol.species);

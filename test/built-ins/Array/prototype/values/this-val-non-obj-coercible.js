@@ -7,6 +7,7 @@ description: >
 info: |
     1. Let O be ToObject(this value).
     2. ReturnIfAbrupt(O).
+features: [Array.prototype.values]
 ---*/
 
 assert.throws(TypeError, function() {

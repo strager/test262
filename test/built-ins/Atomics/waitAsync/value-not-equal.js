@@ -21,7 +21,7 @@ info: |
     d. Return promiseCapability.[[Promise]].
 
 flags: [async]
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, computed-property-names, Symbol, Symbol.toPrimitive, Atomics, arrow-function]
+features: [Atomics, Atomics.waitAsync, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, arrow-function, computed-property-names]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i32a = new Int32Array(

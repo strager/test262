@@ -19,7 +19,7 @@ info: |
     4. Let block be CreateByteDataBlock(byteLength).
     5. ReturnIfAbrupt(block).
     ...
-features: [Reflect.construct]
+features: [ArrayBuffer, Reflect, Reflect.construct]
 ---*/
 
 function DummyError() {}

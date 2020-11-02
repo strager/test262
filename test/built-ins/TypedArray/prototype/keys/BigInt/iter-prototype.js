@@ -11,7 +11,7 @@ info: |
   ...
   3. Return CreateArrayIterator(O, "key").
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.iterator, TypedArray]
+features: [BigInt, Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var ArrayIteratorProto = Object.getPrototypeOf([][Symbol.iterator]());

@@ -15,7 +15,7 @@ info: |
   16. ReturnIfAbrupt(new).
   17. If new does not have an [[ArrayBufferData]] internal slot, throw a TypeError exception.
   ...
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var speciesConstructor = {};

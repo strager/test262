@@ -16,7 +16,7 @@ info: |
   If argument has a [[Construct]] internal method, return true.
   Return false.
 includes: [isConstructor.js]
-features: [Reflect.construct, BigInt, TypedArray]
+features: [BigInt, Reflect.construct, TypedArray]
 ---*/
 
 assert.sameValue(isConstructor(BigInt64Array), true, 'isConstructor(BigInt64Array) must return true');

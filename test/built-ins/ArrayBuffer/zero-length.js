@@ -14,6 +14,7 @@ info: |
   4. ReturnIfAbrupt(byteLength).
   5. If SameValueZero(numberLength, byteLength) is false, throw a RangeError exception.
   ...
+features: [ArrayBuffer]
 ---*/
 
 var positiveZero = new ArrayBuffer(+0);

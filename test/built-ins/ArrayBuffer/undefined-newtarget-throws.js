@@ -12,6 +12,7 @@ info: |
 
   1. If NewTarget is undefined, throw a TypeError exception.
   ...
+features: [ArrayBuffer]
 ---*/
 
 assert.throws(TypeError, function() {

@@ -14,7 +14,7 @@ info: |
   10. Let A be ? TypedArraySpeciesCreate(O, « captured »).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

@@ -9,7 +9,7 @@ info: |
        [...]
        d. Let iterator be GetIterator(items, usingIterator).
        e. ReturnIfAbrupt(iterator).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var items = {};

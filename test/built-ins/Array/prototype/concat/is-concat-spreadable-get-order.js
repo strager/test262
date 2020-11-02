@@ -29,7 +29,7 @@ info: |
   2. Let spreadable be ? Get(O, @@isConcatSpreadable).
   [...]
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 
 var calls = [];

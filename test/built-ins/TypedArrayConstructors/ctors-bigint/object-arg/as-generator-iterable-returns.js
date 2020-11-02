@@ -13,7 +13,7 @@ info: |
   internal slot.
 
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [BigInt, TypedArray, generators]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

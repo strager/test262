@@ -15,7 +15,7 @@ info: |
       Let primValue be ? ToPrimitive(argument, hint Number).
       Return ? ToNumber(primValue).
 
-features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray]
+features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 ---*/
 
 const i32a = new Int32Array(

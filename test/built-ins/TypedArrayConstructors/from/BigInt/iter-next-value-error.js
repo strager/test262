@@ -14,7 +14,7 @@ info: |
         1. Let nextValue be ? IteratorValue(next).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.iterator, TypedArray]
+features: [BigInt, Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var iter = {};

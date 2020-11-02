@@ -11,7 +11,7 @@ info: |
   3. else
     a. If IsCallable(mapfn) is false, throw a TypeError exception.
     ...
-features:
+features: [Symbol]
   - Symbol
 ---*/
 

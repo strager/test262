@@ -13,7 +13,7 @@ info: |
   This property has the attributes { [[Writable]]: false,
   [[Enumerable]]: false, [[Configurable]]: false }.
 includes: [propertyHelper.js]
-features: [BigInt]
+features: [BigInt, TypedArray]
 ---*/
 
 verifyProperty(BigInt64Array.prototype, "BYTES_PER_ELEMENT", {

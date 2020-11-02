@@ -17,7 +17,7 @@ info: |
   ...
   19. If SameValue(new, O) is true, throw a TypeError exception.
   ...
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var speciesConstructor = {};

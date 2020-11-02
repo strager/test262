@@ -16,6 +16,7 @@ info: |
     d. Perform ? DeletePropertyOrThrow(O, index).
     e. Perform ? Set(O, "length", newLen, true).
     f. Return element. 
+features: [exponentiation]
 ---*/
 
 var arrayLike = {

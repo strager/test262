@@ -13,7 +13,7 @@ info: |
   this object's [[ArrayLength]] internal slot is accessed in place of performing
   a [[Get]] of "length"
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Reflect.set, TypedArray]
+features: [BigInt, Reflect, Reflect.set, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

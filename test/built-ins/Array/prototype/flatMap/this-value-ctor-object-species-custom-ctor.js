@@ -39,7 +39,7 @@ info: |
       vi. Else,
         ...
         2. Perform ? CreateDataPropertyOrThrow(target, ! ToString(targetIndex), element).
-features: [Array.prototype.flatMap, Symbol, Symbol.species]
+features: [Array.prototype.flatMap, Symbol, Symbol.species, computed-property-names, new.target]
 includes: [propertyHelper.js]
 ---*/
 

@@ -18,7 +18,7 @@ info: |
   [[ArrayIteratorNextIndex]], [[ArrayIterationKind]]»).
   ...
   6. Return iterator.
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var ArrayIteratorProto = Object.getPrototypeOf([][Symbol.iterator]());

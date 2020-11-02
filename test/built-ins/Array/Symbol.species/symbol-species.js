@@ -8,7 +8,7 @@ esid: sec-get-array-@@species
 author: Sam Mikes
 description: Array[Symbol.species] exists per spec
 includes: [propertyHelper.js]
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(Array, Symbol.species);

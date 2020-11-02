@@ -11,7 +11,7 @@ info: |
           [...]
           v. Let nextValue be IteratorValue(next).
           vi. ReturnIfAbrupt(nextValue).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var items = {};

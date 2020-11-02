@@ -17,7 +17,7 @@ info: |
     b. Let exists be ? HasProperty(source, P).
     c. If exists is true, then
       i. Let element be ? Get(source, P).
-features: [Array.prototype.flatMap]
+features: [Array.prototype.flatMap, Proxy, Reflect]
 includes: [compareArray.js]
 ---*/
 

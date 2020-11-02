@@ -9,7 +9,7 @@ info: |
 
   Let O be ? ToObject(this value).
 
-features: [Array.prototype.item]
+features: [Array.prototype.item, arrow-function]
 ---*/
 assert.sameValue(typeof Array.prototype.item, 'function');
 

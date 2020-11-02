@@ -16,7 +16,7 @@ info: |
   4. Let arrayLike be ? IterableToArrayLike(object).
   ...
 includes: [testTypedArray.js]
-features: [generators, TypedArray]
+features: [TypedArray, generators]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

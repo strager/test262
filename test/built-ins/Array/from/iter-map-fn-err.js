@@ -13,7 +13,7 @@ info: |
                1. Let mappedValue be Call(mapfn, T, «nextValue, k»).
                2. If mappedValue is an abrupt completion, return
                   IteratorClose(iterator, mappedValue).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var closeCount = 0;

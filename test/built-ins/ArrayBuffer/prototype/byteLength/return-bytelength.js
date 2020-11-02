@@ -9,6 +9,7 @@ info: |
   ...
   5. Let length be the value of O's [[ArrayBufferByteLength]] internal slot.
   6. Return length.
+features: [ArrayBuffer]
 ---*/
 
 var ab1 = new ArrayBuffer(0);

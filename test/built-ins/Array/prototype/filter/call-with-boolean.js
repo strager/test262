@@ -5,6 +5,7 @@
 esid: sec-array.prototype.filter
 description: Array.prototype.filter applied to boolean primitive
 includes: [compareArray.js]
+features: [arrow-function]
 ---*/
 
 assert.compareArray(

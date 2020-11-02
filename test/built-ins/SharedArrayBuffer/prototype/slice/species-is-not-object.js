@@ -8,7 +8,7 @@ description: >
 info: |
   SharedArrayBuffer.prototype.slice ( start, end )
 
-features: [SharedArrayBuffer, Symbol.species]
+features: [SharedArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var speciesConstructor = {};

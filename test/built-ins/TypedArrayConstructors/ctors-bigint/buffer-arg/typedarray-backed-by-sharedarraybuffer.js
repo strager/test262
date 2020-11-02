@@ -7,7 +7,7 @@ description: >
   Passing a SharedArrayBuffer-backed TypedArray to a TypedArray constructor
   produces an ArrayBuffer-backed TypedArray.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, SharedArrayBuffer, TypedArray]
+features: [ArrayBuffer, BigInt, SharedArrayBuffer, TypedArray]
 ---*/
 
 var sab = new SharedArrayBuffer(8);

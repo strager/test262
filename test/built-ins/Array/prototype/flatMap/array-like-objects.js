@@ -29,7 +29,7 @@ info: |
       ...
     ** Skip if property does not exist **
 includes: [compareArray.js]
-features: [Array.prototype.flatMap]
+features: [Array.prototype.flatMap, computed-property-names]
 ---*/
 
 function fn(e) {

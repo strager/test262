@@ -29,7 +29,7 @@ info: |
     3. ReturnIfAbrupt(spreadable).
     4. If spreadable is not undefined, return ToBoolean(spreadable).
     5. Return IsArray(O).
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 
 var item = [];

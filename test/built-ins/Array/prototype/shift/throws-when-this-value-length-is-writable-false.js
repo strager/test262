@@ -16,6 +16,7 @@ info: |
   ...
   4. Let success be ? O.[[Set]](P, V, O).
   5. If success is false and Throw is true, throw a TypeError exception.
+features: [arrow-function]
 ---*/
 
 assert.throws(TypeError, () => {

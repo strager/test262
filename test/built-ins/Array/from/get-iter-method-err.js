@@ -7,7 +7,7 @@ info: |
     [...]
     4. Let usingIterator be GetMethod(items, @@iterator).
     5. ReturnIfAbrupt(usingIterator).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var items = {};

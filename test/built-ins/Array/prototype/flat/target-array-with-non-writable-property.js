@@ -23,7 +23,7 @@ info: |
         [...]
         2. Set targetIndex to ? FlattenIntoArray(target, element, elementLen, targetIndex, depth - 1).
       [...]
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 includes: [propertyHelper.js]
 ---*/
 

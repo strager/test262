@@ -7,7 +7,7 @@ description: >
   Throws TypeError exception in strict mode.
 flags: [onlyStrict]
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, TypedArray, SharedArrayBuffer]
+features: [SharedArrayBuffer, TypedArray, align-detached-buffer-semantics-with-web-reality, arrow-function, computed-property-names]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

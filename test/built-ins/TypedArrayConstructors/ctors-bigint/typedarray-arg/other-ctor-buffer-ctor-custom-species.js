@@ -26,7 +26,7 @@ info: |
   ...
 
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 var sample1 = new BigInt64Array();

@@ -7,7 +7,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat Symbol.isConcatSpreadable number wrapper
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var num = new Number(true)
 // Number wrapper objects are not concat-spreadable by default

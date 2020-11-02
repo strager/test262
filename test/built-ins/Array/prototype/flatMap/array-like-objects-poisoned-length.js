@@ -9,7 +9,7 @@ info: |
 
   1. Let O be ? ToObject(this value).
   2. Let sourceLen be ? ToLength(? Get(O, "length")).
-features: [Array.prototype.flatMap, Symbol.toPrimitive]
+features: [Array.prototype.flatMap, Symbol, Symbol.toPrimitive, computed-property-names]
 ---*/
 
 assert.sameValue(typeof Array.prototype.flatMap, 'function');

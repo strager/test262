@@ -32,7 +32,7 @@ info: |
     ...
   4. Return newTypedArray.
 includes: [testBigIntTypedArray.js, compareArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

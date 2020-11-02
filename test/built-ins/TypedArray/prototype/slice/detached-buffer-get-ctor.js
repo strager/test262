@@ -12,7 +12,7 @@ info: |
     If IsDetachedBuffer(O.[[ViewedArrayBuffer]]) is true, throw a TypeError exception.
   ...
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [align-detached-buffer-semantics-with-web-reality, Symbol.species, TypedArray]
+features: [Symbol.species, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

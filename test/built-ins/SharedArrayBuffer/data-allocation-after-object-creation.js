@@ -18,7 +18,7 @@ info: |
     ...
     3. Let block be ? CreateByteDataBlock(byteLength).
     ...
-features: [SharedArrayBuffer, Reflect.construct]
+features: [Reflect, Reflect.construct, SharedArrayBuffer]
 ---*/
 
 function DummyError() {}

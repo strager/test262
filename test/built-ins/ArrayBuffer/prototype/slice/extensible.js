@@ -11,6 +11,7 @@ info: |
   17 ECMAScript Standard Built-in Objects:
     Unless specified otherwise, the [[Extensible]] internal slot
     of a built-in object initially has the value true.
+features: [ArrayBuffer]
 ---*/
 
 assert(Object.isExtensible(ArrayBuffer.prototype.slice));

@@ -14,7 +14,7 @@ info: |
     [...]
     7. If Type(C) is Object, then
        a. Let C be ? Get(C, @@species).
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var a = [];

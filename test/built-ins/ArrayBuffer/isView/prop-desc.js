@@ -10,6 +10,7 @@ info: |
   and in Annex B.2 has the attributes { [[Writable]]: true,
   [[Enumerable]]: false, [[Configurable]]: true } unless otherwise specified.
 includes: [propertyHelper.js]
+features: [ArrayBuffer]
 ---*/
 
 verifyNotEnumerable(ArrayBuffer, "isView");

@@ -20,7 +20,7 @@ info: |
   7. If index = -0, return false.
   ...
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, Reflect, TypedArray]
+features: [Reflect, Reflect.set, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

@@ -5,7 +5,7 @@
 esid: sec-atomics.store
 description: >
   Atomics.store calls ToInteger, which normalizes -0 to +0
-features: [Atomics, SharedArrayBuffer, TypedArray]
+features: [Atomics, Object.is, SharedArrayBuffer, TypedArray]
 ---*/
 
 const i32a = new Int32Array(

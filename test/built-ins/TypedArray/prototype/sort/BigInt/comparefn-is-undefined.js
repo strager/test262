@@ -10,7 +10,7 @@ info: |
   1. If comparefn is not undefined and IsCallable(comparefn) is false, throw a TypeError exception.
   ...
 includes: [compareArray.js, testBigIntTypedArray.js]
-features: [TypedArray, BigInt]
+features: [BigInt, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

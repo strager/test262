@@ -14,7 +14,7 @@ info: |
     ...
   3. Return ? OrdinaryGet(O, P, Receiver).
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, TypedArray]
+features: [TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 var keys = [

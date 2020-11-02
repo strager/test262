@@ -24,7 +24,7 @@ info: |
     a. Return ? parent.[[HasProperty]](P).
   6. Return false.
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, Reflect, Proxy, TypedArray]
+features: [Proxy, Reflect, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 var handler = {

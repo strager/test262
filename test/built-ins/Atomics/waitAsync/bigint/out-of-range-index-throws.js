@@ -18,7 +18,7 @@ info: |
     2.Let accessIndex be ? ToIndex(requestIndex).
     ...
     5. If accessIndex ≥ length, throw a RangeError exception.
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, Atomics, BigInt]
+features: [Atomics, Atomics.waitAsync, BigInt, SharedArrayBuffer, TypedArray]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(

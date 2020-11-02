@@ -16,7 +16,7 @@ info: |
   ...
 
 includes: [testAtomics.js]
-features: [Atomics.waitAsync, Atomics, SharedArrayBuffer, ArrayBuffer, DataView, Symbol, TypedArray, BigInt]
+features: [ArrayBuffer, Atomics, Atomics.waitAsync, BigInt, DataView, SharedArrayBuffer, Symbol, TypedArray]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 8));

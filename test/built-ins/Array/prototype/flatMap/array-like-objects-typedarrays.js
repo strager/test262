@@ -19,7 +19,7 @@ info: |
   4. If isArray is false, return ? ArrayCreate(length).
   5. Let C be ? Get(originalArray, "constructor").
 includes: [compareArray.js]
-features: [Array.prototype.flatMap, Int32Array]
+features: [Array.prototype.flatMap, TypedArray]
 ---*/
 
 function same(e) {

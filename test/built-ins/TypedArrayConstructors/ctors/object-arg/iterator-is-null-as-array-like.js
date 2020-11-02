@@ -26,7 +26,7 @@ info: |
   2. Let func be ? GetV(V, P).
   3. If func is either undefined or null, return undefined.
 includes: [testTypedArray.js]
-features: [Symbol.iterator, TypedArray]
+features: [Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var obj = {length: 2, 0: 1, 1: 2};

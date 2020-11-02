@@ -12,7 +12,7 @@ info: |
 
     Boolean -> If argument is true, return 1. If argument is false, return +0.
 
-features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray]
+features: [Atomics, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 flags: [CanBlockIsTrue]
 ---*/
 

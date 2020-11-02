@@ -7,6 +7,7 @@
 esid: sec-array.prototype.concat
 description: array-concat-non-array
 includes: [compareArray.js]
+features: [class]
 ---*/
 
 //

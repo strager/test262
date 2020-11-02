@@ -29,7 +29,7 @@ info: |
   3. Let proto be ? Get(constructor, "prototype").
   ...
 includes: [testTypedArray.js]
-features: [Reflect, TypedArray]
+features: [Reflect, Reflect.construct, TypedArray]
 ---*/
 
 var newTarget = function() {}.bind(null);

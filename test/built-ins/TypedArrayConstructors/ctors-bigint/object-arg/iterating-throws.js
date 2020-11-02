@@ -16,7 +16,7 @@ info: |
   4. Let arrayLike be ? IterableToArrayLike(object).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [BigInt, TypedArray, generators]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

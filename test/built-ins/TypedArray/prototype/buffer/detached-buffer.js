@@ -10,7 +10,7 @@ info: |
   4. Let buffer be the value of O's [[ViewedArrayBuffer]] internal slot.
   5. Return buffer.
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [TypedArray]
+features: [ArrayBuffer, TypedArray]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

@@ -11,7 +11,7 @@ info: |
           i. Let Pk be ToString(k).
           ii. Let next be IteratorStep(iterator).
           iii. ReturnIfAbrupt(next).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var items = {};

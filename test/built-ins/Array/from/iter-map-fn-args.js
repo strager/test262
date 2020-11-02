@@ -21,7 +21,7 @@ info: |
                2. If mappedValue is an abrupt completion, return
                   IteratorClose(iterator, mappedValue).
                3. Let mappedValue be mappedValue.[[value]].
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var args = [];

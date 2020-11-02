@@ -51,7 +51,7 @@ info: |
     c. Throw a TypeError exception.
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.toPrimitive, TypedArray]
+features: [BigInt, Symbol, Symbol.toPrimitive, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

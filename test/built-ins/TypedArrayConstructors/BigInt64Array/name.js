@@ -25,7 +25,7 @@ info: |
   object, if it exists, has the attributes { [[Writable]]: false,
   [[Enumerable]]: false, [[Configurable]]: true }.
 includes: [propertyHelper.js]
-features: [BigInt]
+features: [BigInt, TypedArray]
 ---*/
 
 verifyProperty(BigInt64Array, "name", {

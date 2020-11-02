@@ -12,6 +12,7 @@ info: |
   6. Let relativeStart be ToInteger(start).
   7. ReturnIfAbrupt(relativeStart).
   ...
+features: [ArrayBuffer]
 ---*/
 
 var arrayBuffer = new ArrayBuffer(8);

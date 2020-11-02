@@ -23,7 +23,7 @@ info: |
   2. If O does not have an internalSlot internal slot, throw a TypeError exception.
 
 includes: [detachArrayBuffer.js]
-features: [Atomics.waitAsync, ArrayBuffer, Atomics, TypedArray, BigInt]
+features: [ArrayBuffer, Atomics, Atomics.waitAsync, BigInt, TypedArray]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(

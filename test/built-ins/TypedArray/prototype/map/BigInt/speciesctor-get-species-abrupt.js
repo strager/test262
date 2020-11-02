@@ -25,7 +25,7 @@ info: |
   5. Let S be ? Get(C, @@species).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

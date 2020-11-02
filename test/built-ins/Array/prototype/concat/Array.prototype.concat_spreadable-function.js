@@ -7,7 +7,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat Symbol.isConcatSpreadable function
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable]
 ---*/
 var fn = function(a, b, c) {}
 // Functions are not concat-spreadable by default

@@ -12,7 +12,7 @@ info: |
       i. Let next be ? IteratorStep(iterator).
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.iterator, TypedArray]
+features: [BigInt, Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var iter = {};

@@ -12,7 +12,7 @@ info: |
           iv. If next is false, then
               1. Let setStatus be Set(A, "length", k, true).
               2. ReturnIfAbrupt(setStatus).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var C = function() {};

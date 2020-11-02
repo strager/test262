@@ -4,7 +4,7 @@
 esid: sec-array.prototype.flat
 description: >
     if the argument is a Symbol or Object null, it throws exception
-features: [Array.prototype.flat]
+features: [Array.prototype.flat, Symbol]
 ---*/
 
 assert.sameValue(typeof Array.prototype.flat, 'function');

@@ -18,7 +18,7 @@ info: |
   5.If q is NaN, let t be +∞, else let t be max(q, 0)
 
 flags: [async]
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, Atomics, BigInt, computed-property-names, Symbol, Symbol.toPrimitive, arrow-function]
+features: [Atomics, Atomics.waitAsync, BigInt, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, arrow-function, computed-property-names]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4));

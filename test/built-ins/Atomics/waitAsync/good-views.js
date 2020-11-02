@@ -7,7 +7,7 @@ description: >
   Test Atomics.waitAsync on arrays that allow atomic operations
 flags: [async]
 includes: [atomicsHelper.js]
-features: [Atomics.waitAsync, Atomics]
+features: [Atomics, Atomics.waitAsync, arrow-function, async-functions]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 

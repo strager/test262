@@ -20,7 +20,7 @@ info: |
   15. Perform SetValueInBuffer(buffer, indexedPosition, elementType, numValue).
   16. Return true.
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, Reflect, TypedArray]
+features: [Reflect, Reflect.set, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 let proto = TypedArray.prototype;

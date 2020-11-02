@@ -35,7 +35,7 @@ info: |
     Result: Throw a TypeError exception.
 
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray, Symbol]
+features: [BigInt, Symbol, TypedArray]
 ---*/
 
 var s = Symbol()

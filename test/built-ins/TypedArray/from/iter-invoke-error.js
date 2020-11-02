@@ -17,7 +17,7 @@ info: |
     a. Let iterator be ? GetIterator(items, usingIterator).
   ...
 includes: [testTypedArray.js]
-features: [Symbol.iterator, TypedArray]
+features: [Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var iter = {};

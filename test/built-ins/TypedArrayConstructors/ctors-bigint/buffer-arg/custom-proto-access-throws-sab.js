@@ -29,7 +29,7 @@ info: |
   3. Let proto be ? Get(constructor, "prototype").
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Reflect, SharedArrayBuffer, TypedArray]
+features: [BigInt, Reflect, Reflect.construct, SharedArrayBuffer, TypedArray]
 ---*/
 
 var buffer = new SharedArrayBuffer(8);

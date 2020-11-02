@@ -29,7 +29,7 @@ info: |
   ...
   12. Return A.
 includes: [testTypedArray.js]
-features: [Reflect, TypedArray]
+features: [Reflect, Reflect.construct, TypedArray]
 ---*/
 
 function newTarget() {}

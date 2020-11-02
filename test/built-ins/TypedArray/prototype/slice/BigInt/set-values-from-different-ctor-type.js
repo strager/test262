@@ -27,7 +27,7 @@ info: |
   ...
   16. Return A
 includes: [testBigIntTypedArray.js, compareArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 var arr = [42n, 43n, 44n];

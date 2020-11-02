@@ -10,7 +10,7 @@ info: |
   1. Let O be ToObject(this value).
   2. ReturnIfAbrupt(O).
   3. Return CreateArrayIterator(O, "value").
-features: [Symbol.iterator]
+features: [Array.prototype.values, Symbol, Symbol.iterator]
 ---*/
 
 var obj = {

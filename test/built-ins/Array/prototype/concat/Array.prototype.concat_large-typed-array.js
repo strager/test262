@@ -7,7 +7,7 @@
 esid: sec-array.prototype.concat
 description: Array.prototype.concat large typed array
 includes: [compareArray.js]
-features: [Symbol.isConcatSpreadable]
+features: [Symbol, Symbol.isConcatSpreadable, TypedArray]
 ---*/
 function concatTypedArray(type, elems, modulo) {
   var items = new Array(elems);

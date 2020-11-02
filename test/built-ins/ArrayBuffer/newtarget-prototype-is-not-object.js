@@ -18,7 +18,7 @@ info: |
        «[[ArrayBufferData]], [[ArrayBufferByteLength]]» ).
     2. ReturnIfAbrupt(obj).
     ...
-features: [Reflect.construct, Symbol]
+features: [ArrayBuffer, Reflect, Reflect.construct, Symbol]
 ---*/
 
 function newTarget() {}

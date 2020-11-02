@@ -19,7 +19,7 @@ info: |
           i. If SameValue(C, realmC.[[Intrinsics]].[[%Array%]]) is true, let C
              be undefined.
     [...]
-features: [cross-realm, Symbol.species]
+features: [Symbol, Symbol.species, cross-realm]
 ---*/
 
 var array = [];

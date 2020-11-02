@@ -12,7 +12,7 @@ info: |
   Note: ES2016 replaces all the references for the %TypedArray% constructor to a
   single chapter covering all arguments cases.
 includes: [testTypedArray.js]
-features: [TypedArray]
+features: [ArrayBuffer, TypedArray]
 ---*/
 
 assert.throws(TypeError, function() {

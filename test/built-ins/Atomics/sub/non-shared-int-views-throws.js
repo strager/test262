@@ -6,7 +6,7 @@ esid: sec-atomics.sub
 description: >
   Atomics.sub throws when operating on non-sharable integer TypedArrays
 includes: [testTypedArray.js]
-features: [ArrayBuffer, Atomics, TypedArray]
+features: [ArrayBuffer, Atomics, TypedArray, arrow-function]
 ---*/
 testWithNonAtomicsFriendlyTypedArrayConstructors(TA => {
   const buffer = new ArrayBuffer(16);

@@ -12,7 +12,7 @@ info: |
        b. Else,
           i. Let A be ArrayCreate(0).
        c. ReturnIfAbrupt(A).
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var C = function() {

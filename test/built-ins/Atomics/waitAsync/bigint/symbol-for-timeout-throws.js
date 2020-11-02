@@ -15,7 +15,7 @@ info: |
 
     Symbol --> Throw a TypeError exception.
 
-features: [Atomics.waitAsync, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names, Atomics, BigInt]
+features: [Atomics, Atomics.waitAsync, BigInt, SharedArrayBuffer, Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4));

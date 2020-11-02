@@ -23,7 +23,7 @@ info: |
   Return _resultObject_.
 
 flags: [async]
-features: [Atomics.waitAsync, TypedArray, SharedArrayBuffer, destructuring-binding, Atomics, arrow-function]
+features: [Atomics, Atomics.waitAsync, SharedArrayBuffer, TypedArray, arrow-function, destructuring-binding]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 

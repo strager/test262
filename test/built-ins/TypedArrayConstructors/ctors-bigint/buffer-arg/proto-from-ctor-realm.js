@@ -23,7 +23,7 @@ info: |
        b. Let proto be realm's intrinsic object named intrinsicDefaultProto.
     5. Return proto.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, cross-realm, Reflect, TypedArray]
+features: [ArrayBuffer, BigInt, Reflect, Reflect.construct, TypedArray, cross-realm]
 ---*/
 
 var other = $262.createRealm().global;

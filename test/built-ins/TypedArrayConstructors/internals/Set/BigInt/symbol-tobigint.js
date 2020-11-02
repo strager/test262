@@ -48,7 +48,7 @@ info: |
     Result: Throw a TypeError exception.
 
 includes: [testBigIntTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, BigInt, TypedArray, Symbol]
+features: [BigInt, Symbol, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 var s = Symbol()

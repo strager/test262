@@ -11,6 +11,7 @@ info: |
   3. If O does not have an [[ArrayBufferData]] internal slot, throw a TypeError
   exception.
   ...
+features: [ArrayBuffer]
 ---*/
 
 assert.throws(TypeError, function() {

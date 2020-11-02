@@ -10,7 +10,7 @@ info: |
   9. If IsDetachedBuffer(buffer) is true, throw a TypeError exception.
   ...
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [TypedArray]
+features: [ArrayBuffer, TypedArray, arrow-function]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

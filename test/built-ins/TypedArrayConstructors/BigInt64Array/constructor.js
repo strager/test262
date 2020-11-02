@@ -13,7 +13,7 @@ info: |
   whose behaviour is overloaded based upon the number and types of its
   arguments. The actual behaviour of a call of TypedArray depends upon
   the number and kind of arguments that are passed to it.
-features: [BigInt]
+features: [BigInt, TypedArray]
 ---*/
 
 assert.sameValue(typeof BigInt64Array, "function");

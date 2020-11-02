@@ -5,6 +5,7 @@
 esid: sec-array.prototype.flatMap
 description: Array.prototype.flatMap applied to boolean primitive
 includes: [compareArray.js]
+features: [Array.prototype.flatMap, arrow-function]
 ---*/
 
 assert.compareArray(

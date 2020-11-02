@@ -28,7 +28,7 @@ info: |
   8. If C is undefined, return ? ArrayCreate(length).
   9. If IsConstructor(C) is false, throw a TypeError exception.
   10. Return ? Construct(C, « length »).
-features: [Array.prototype.flatMap, Symbol, Symbol.species]
+features: [Array.prototype.flatMap, Symbol, Symbol.species, computed-property-names, new.target]
 ---*/
 
 assert.sameValue(typeof Array.prototype.flatMap, 'function');

@@ -5,6 +5,7 @@
 esid: sec-array.prototype.map
 description: Array.prototype.map applied to boolean primitive
 includes: [compareArray.js]
+features: [arrow-function]
 ---*/
 
 assert.compareArray(

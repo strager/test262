@@ -11,7 +11,7 @@ info: |
   6. Let offset be the value of O's [[ByteOffset]] internal slot.
   7. Return size.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [ArrayBuffer, BigInt, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

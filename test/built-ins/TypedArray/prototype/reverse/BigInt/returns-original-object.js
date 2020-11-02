@@ -16,7 +16,7 @@ info: |
   ...
   6. Return O.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [ArrayBuffer, BigInt, TypedArray]
 ---*/
 
 var buffer = new ArrayBuffer(64);

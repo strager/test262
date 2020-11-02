@@ -34,7 +34,7 @@ info: |
      b. Let proto be realm's intrinsic object named intrinsicDefaultProto.
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, cross-realm, Symbol.species, TypedArray]
+features: [ArrayBuffer, BigInt, Symbol, Symbol.species, TypedArray, cross-realm]
 ---*/
 
 var sample1 = new BigInt64Array();

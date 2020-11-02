@@ -10,7 +10,7 @@ info: |
     Per ES6 section 17, the method should exist on the Array prototype, and it
     should be writable and configurable, but not enumerable.
 includes: [propertyHelper.js]
-features: [Symbol.iterator]
+features: [Array.prototype.values, Symbol, Symbol.iterator]
 esid: sec-array.prototype-@@iterator
 ---*/
 

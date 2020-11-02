@@ -9,7 +9,7 @@ info: |
 
   1. Return the this value.
 includes: [testTypedArray.js]
-features: [Symbol.species, TypedArray]
+features: [Symbol, Symbol.species, TypedArray]
 ---*/
 
 var value = {};

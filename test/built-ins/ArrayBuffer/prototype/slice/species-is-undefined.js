@@ -19,7 +19,7 @@ info: |
     7. ReturnIfAbrupt(S).
     8. If S is either undefined or null, return defaultConstructor.
     ...
-features: [Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 ---*/
 
 var speciesConstructor = {};

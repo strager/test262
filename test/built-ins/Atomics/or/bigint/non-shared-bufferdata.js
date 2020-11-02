@@ -5,7 +5,7 @@ esid: sec-atomics.or
 description: >
   Atomics.or will operate on TA when TA.buffer is not a SharedArrayBuffer
 includes: [testBigIntTypedArray.js]
-features: [ArrayBuffer, Atomics, BigInt, TypedArray]
+features: [ArrayBuffer, Atomics, BigInt, TypedArray, arrow-function]
 ---*/
 testWithBigIntTypedArrayConstructors(TA => {
   const buffer = new ArrayBuffer(TA.BYTES_PER_ELEMENT * 4);

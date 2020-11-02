@@ -12,7 +12,7 @@ info: |
   5. Assert: name is a String value.
   6. Return name.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.toStringTag, TypedArray]
+features: [BigInt, Symbol, Symbol.toStringTag, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

@@ -12,7 +12,7 @@ info: |
   3. If O does not have a [[TypedArrayName]] internal slot, return undefined.
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.toStringTag, TypedArray]
+features: [BigInt, Symbol, Symbol.toStringTag, TypedArray]
 ---*/
 
 var TypedArrayPrototype = TypedArray.prototype;

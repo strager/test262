@@ -14,7 +14,7 @@ info: |
   6. Let q be ? ToNumber(timeout).
 
 flags: [async]
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, Atomics, BigInt, destructuring-binding, arrow-function]
+features: [Atomics, Atomics.waitAsync, BigInt, SharedArrayBuffer, TypedArray, arrow-function, destructuring-binding]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(new SharedArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4));

@@ -49,7 +49,7 @@ info: |
     Result: Throw a TypeError exception.
 
 includes: [testBigIntTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, BigInt, TypedArray]
+features: [BigInt, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

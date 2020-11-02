@@ -7,7 +7,7 @@ info: |
 esid: sec-get-arraybuffer-@@species
 author: Sam Mikes
 description: ArrayBuffer[Symbol.species] exists per spec
-features: [ArrayBuffer, Symbol.species]
+features: [ArrayBuffer, Symbol, Symbol.species]
 includes: [propertyHelper.js]
 ---*/
 

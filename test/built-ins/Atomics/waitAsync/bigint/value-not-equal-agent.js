@@ -21,7 +21,7 @@ info: |
 
 flags: [async]
 includes: [atomicsHelper.js]
-features: [Atomics.waitAsync, SharedArrayBuffer, TypedArray, Atomics, BigInt, arrow-function, async-functions]
+features: [Atomics, Atomics.waitAsync, BigInt, SharedArrayBuffer, TypedArray, arrow-function, async-functions]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const RUNNING = 1;

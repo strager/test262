@@ -12,7 +12,7 @@ info: |
     ...
       5.If onlyInt32 is true, then
         If typeName is not "BigInt64Array", throw a TypeError exception.
-features: [Atomics, BigInt, TypedArray]
+features: [Atomics, BigInt, SharedArrayBuffer, TypedArray]
 ---*/
 
 const i64a = new BigUint64Array(

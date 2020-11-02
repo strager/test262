@@ -5,7 +5,7 @@ esid: sec-get-array-@@species
 description: Return value of @@species accessor method
 info: |
     1. Return the this value.
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var thisVal = {};

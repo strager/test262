@@ -17,7 +17,7 @@ info: |
        a. Let C be ? Get(C, @@species).
        b. If C is null, let C be undefined.
     8. If C is undefined, return ? ArrayCreate(length).
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 ---*/
 
 var a = [];

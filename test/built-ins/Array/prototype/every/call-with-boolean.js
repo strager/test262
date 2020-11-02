@@ -4,6 +4,7 @@
 /*---
 esid: sec-array.prototype.every
 description: Array.prototype.every applied to boolean primitive
+features: [arrow-function]
 ---*/
 
 assert.sameValue(

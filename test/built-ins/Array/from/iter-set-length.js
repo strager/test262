@@ -13,7 +13,7 @@ info: |
               1. Let setStatus be Set(A, "length", k, true).
               2. ReturnIfAbrupt(setStatus).
               3. Return A.
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator]
 ---*/
 
 var items = {};

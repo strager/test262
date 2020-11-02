@@ -18,7 +18,7 @@ info: |
   5. If waitable is true, then
     a. If typeName is not "BigInt64Array" or "BigInt64Array", throw a TypeError exception.
 
-features: [Atomics.waitAsync, ArrayBuffer, Atomics, TypedArray, BigInt, arrow-function]
+features: [ArrayBuffer, Atomics, Atomics.waitAsync, BigInt, TypedArray, arrow-function]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 const i64a = new BigInt64Array(new ArrayBuffer(BigInt64Array.BYTES_PER_ELEMENT * 4));

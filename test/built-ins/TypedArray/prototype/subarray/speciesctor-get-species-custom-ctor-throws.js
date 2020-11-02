@@ -30,7 +30,7 @@ info: |
   2. Perform ? ValidateTypedArray(newTypedArray).
   ...
 includes: [testTypedArray.js]
-features: [Symbol.species, TypedArray]
+features: [Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

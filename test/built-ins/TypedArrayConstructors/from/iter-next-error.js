@@ -12,7 +12,7 @@ info: |
       i. Let next be ? IteratorStep(iterator).
   ...
 includes: [testTypedArray.js]
-features: [Symbol.iterator, TypedArray]
+features: [Symbol, Symbol.iterator, TypedArray]
 ---*/
 
 var iter = {};

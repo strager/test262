@@ -19,7 +19,7 @@ info: |
         ...
 flags: [noStrict]
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, TypedArray]
+features: [TypedArray, align-detached-buffer-semantics-with-web-reality, computed-property-names]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

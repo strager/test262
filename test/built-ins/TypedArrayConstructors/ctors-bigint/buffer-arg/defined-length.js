@@ -12,7 +12,7 @@ info: |
   object has an [[ArrayBufferData]] internal slot.
 
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [ArrayBuffer, BigInt, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

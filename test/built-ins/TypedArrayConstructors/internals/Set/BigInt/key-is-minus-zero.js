@@ -20,7 +20,7 @@ info: |
   ...
   10. If index = -0, return false.
 includes: [testBigIntTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, BigInt, Reflect, TypedArray]
+features: [BigInt, Reflect, Reflect.set, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 testWithBigIntTypedArrayConstructors(function(TA) {
   var sample = new TA([42n]);

@@ -16,6 +16,7 @@ info: |
     2. Let db be a new Data Block value consisting of size bytes. If it is
        impossible to create such a Data Block, throw a RangeError exception.
     ...
+features: [ArrayBuffer]
 ---*/
 
 assert.throws(RangeError, function() {

@@ -25,7 +25,7 @@ info: |
   15. Perform SetValueInBuffer(buffer, indexedPosition, elementType, numValue).
   16. Return true.
 includes: [testBigIntTypedArray.js, detachArrayBuffer.js]
-features: [align-detached-buffer-semantics-with-web-reality, BigInt, Reflect, TypedArray]
+features: [BigInt, Reflect, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 testWithBigIntTypedArrayConstructors(function(TA) {
   var ta = new TA([17n]);

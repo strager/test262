@@ -4,6 +4,7 @@
 /*---
 esid: sec-array.prototype.reduceRight
 description: Array.prototype.reduceRight applied to boolean primitive
+features: [arrow-function]
 ---*/
 
 assert.sameValue(

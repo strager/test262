@@ -27,7 +27,7 @@ info: |
   9. If IsSharedArrayBuffer(buffer) is false, throw a TypeError exception.
   10. Return buffer.
 
-features: [Atomics.waitAsync, Atomics, TypedArray, SharedArrayBuffer]
+features: [Atomics, Atomics.waitAsync, SharedArrayBuffer, TypedArray]
 ---*/
 assert.sameValue(typeof Atomics.waitAsync, 'function', 'The value of `typeof Atomics.waitAsync` is "function"');
 

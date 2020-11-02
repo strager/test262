@@ -26,7 +26,7 @@ info: |
   If IsDetachedBuffer(buffer) is true, return false.
 
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [align-detached-buffer-semantics-with-web-reality, Reflect, TypedArray]
+features: [Reflect, Reflect.set, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

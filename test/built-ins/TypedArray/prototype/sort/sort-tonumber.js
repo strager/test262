@@ -13,7 +13,7 @@ info: |
     ...
   ...
 includes: [testTypedArray.js, detachArrayBuffer.js]
-features: [TypedArray]
+features: [Symbol, Symbol.toPrimitive, TypedArray, computed-property-names]
 ---*/
 
 testWithTypedArrayConstructors(function(TA) {

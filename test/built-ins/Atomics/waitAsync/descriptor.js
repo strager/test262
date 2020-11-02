@@ -11,7 +11,7 @@ info: |
   B.2 has the attributes { [[Writable]]: true, [[Enumerable]]: false,
   [[Configurable]]: true } unless otherwise specified.
 includes: [propertyHelper.js]
-features: [Atomics.waitAsync, Atomics]
+features: [Atomics, Atomics.waitAsync]
 ---*/
 
 verifyProperty(Atomics, 'waitAsync', {

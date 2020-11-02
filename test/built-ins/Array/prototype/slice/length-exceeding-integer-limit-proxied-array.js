@@ -17,6 +17,7 @@ info: |
      else let final be min(relativeEnd, len).
   ...
 includes: [compareArray.js]
+features: [Proxy, Reflect, exponentiation]
 ---*/
 
 var array = [];

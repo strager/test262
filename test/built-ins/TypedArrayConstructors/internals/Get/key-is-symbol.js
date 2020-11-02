@@ -12,7 +12,7 @@ info: |
     ...
   3. Return ? OrdinaryGet(O, P, Receiver).
 includes: [testTypedArray.js]
-features: [align-detached-buffer-semantics-with-web-reality, Symbol, TypedArray]
+features: [Symbol, TypedArray, align-detached-buffer-semantics-with-web-reality]
 ---*/
 
 var parentKey = Symbol("2");

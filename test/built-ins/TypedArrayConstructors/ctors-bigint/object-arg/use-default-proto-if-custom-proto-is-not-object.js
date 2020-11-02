@@ -32,7 +32,7 @@ info: |
   ...
   12. Return A.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [BigInt, Reflect, Reflect.construct, TypedArray]
 ---*/
 
 function newTarget() {}

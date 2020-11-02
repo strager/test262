@@ -5,7 +5,7 @@
 description: Source object has iterator
 esid: sec-array.from
 es6id: 22.1.2.1
-features: [Symbol.iterator]
+features: [Symbol, Symbol.iterator, computed-property-names]
 ---*/
 
 var array = [2, 4, 8, 16, 32, 64, 128];

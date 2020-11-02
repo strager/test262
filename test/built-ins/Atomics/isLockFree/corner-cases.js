@@ -5,7 +5,7 @@
 esid: sec-atomics.islockfree
 description: >
   Test isLockFree on various non-intuitive arguments
-features: [Atomics]
+features: [Atomics, arrow-function]
 ---*/
 
 assert.sameValue(

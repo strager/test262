@@ -12,7 +12,7 @@ info: |
   object has an [[ArrayBufferData]] internal slot.
 
 includes: [testTypedArray.js]
-features: [TypedArray]
+features: [ArrayBuffer, TypedArray]
 ---*/
 
 var buffer = new ArrayBuffer(16);

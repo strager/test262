@@ -15,7 +15,7 @@ info: |
 
   22.1.3.19 Array.prototype.reduce ( callbackfn [ , initialValue ] )
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Reflect.set, TypedArray]
+features: [BigInt, Reflect, Reflect.set, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

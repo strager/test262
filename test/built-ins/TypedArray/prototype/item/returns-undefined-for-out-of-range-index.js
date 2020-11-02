@@ -10,7 +10,7 @@ info: |
   If k < 0 or k ≥ len, then return undefined.
 
 includes: [testTypedArray.js]
-features: [TypedArray,TypedArray.prototype.item]
+features: [TypedArray, TypedArray.prototype.item, arrow-function]
 ---*/
 assert.sameValue(
   typeof TypedArray.prototype.item,

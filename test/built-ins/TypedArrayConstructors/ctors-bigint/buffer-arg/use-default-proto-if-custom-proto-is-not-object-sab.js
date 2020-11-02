@@ -32,7 +32,7 @@ info: |
   ...
   12. Return A.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, SharedArrayBuffer, TypedArray]
+features: [BigInt, Reflect, Reflect.construct, SharedArrayBuffer, TypedArray]
 ---*/
 
 var buffer = new SharedArrayBuffer(8);

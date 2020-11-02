@@ -9,7 +9,7 @@ info: |
 
   Let relativeIndex be ? ToInteger(index).
 
-features: [Array.prototype.item]
+features: [Array.prototype.item, Symbol, arrow-function]
 ---*/
 assert.sameValue(typeof Array.prototype.item, 'function');
 

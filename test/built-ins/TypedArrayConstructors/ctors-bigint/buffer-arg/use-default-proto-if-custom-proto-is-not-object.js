@@ -31,7 +31,7 @@ info: |
   ...
   12. Return A.
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [ArrayBuffer, BigInt, Reflect, Reflect.construct, TypedArray]
 ---*/
 
 var buffer = new ArrayBuffer(8);

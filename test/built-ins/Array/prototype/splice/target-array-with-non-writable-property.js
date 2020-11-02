@@ -15,7 +15,7 @@ info: |
       ...
       ii. Perform ? CreateDataPropertyOrThrow(A, ! ToString(k), fromValue).
     ...
-features: [Symbol.species]
+features: [Symbol, Symbol.species]
 includes: [propertyHelper.js]
 ---*/
 

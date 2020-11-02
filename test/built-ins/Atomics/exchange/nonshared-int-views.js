@@ -6,7 +6,7 @@ esid: sec-atomics.exchange
 description: >
   Atomics.exchange throws when operating on non-sharable integer TypedArrays
 includes: [testTypedArray.js]
-features: [ArrayBuffer, Atomics, TypedArray]
+features: [ArrayBuffer, Atomics, TypedArray, arrow-function]
 ---*/
 
 testWithNonAtomicsFriendlyTypedArrayConstructors(TA => {

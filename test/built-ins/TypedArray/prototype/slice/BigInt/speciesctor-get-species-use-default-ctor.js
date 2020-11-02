@@ -24,7 +24,7 @@ info: |
   6. If S is either undefined or null, return defaultConstructor.
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, Symbol.species, TypedArray]
+features: [BigInt, Symbol, Symbol.species, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TA) {

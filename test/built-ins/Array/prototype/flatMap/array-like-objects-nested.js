@@ -28,7 +28,7 @@ info: |
         2. Perform ? CreateDataPropertyOrThrow(target, ! ToString(targetIndex), element).
         3. Increase targetIndex by 1.
 includes: [compareArray.js]
-features: [Array.prototype.flatMap, Int32Array]
+features: [Array.prototype.flatMap, TypedArray]
 ---*/
 
 function fn(e) {

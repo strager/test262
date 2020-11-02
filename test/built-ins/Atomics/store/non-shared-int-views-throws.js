@@ -6,7 +6,7 @@ esid: sec-atomics.store
 description: >
   Atomics.store throws when operating on non-sharable integer TypedArrays
 includes: [testTypedArray.js]
-features: [ArrayBuffer, Atomics, TypedArray]
+features: [ArrayBuffer, Atomics, TypedArray, arrow-function]
 ---*/
 testWithNonAtomicsFriendlyTypedArrayConstructors(TA => {
   const buffer = new ArrayBuffer(TA.BYTES_PER_ELEMENT * 4);

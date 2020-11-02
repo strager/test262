@@ -14,7 +14,7 @@ info: |
     a. Let intCount be ? ToInteger(count).
   ...
 
-features: [Atomics, SharedArrayBuffer, TypedArray]
+features: [Atomics, SharedArrayBuffer, Symbol, TypedArray]
 ---*/
 
 const i32a = new Int32Array(

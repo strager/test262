@@ -14,7 +14,7 @@ info: |
   8. If offset is -0, let offset be +0.
   ...
 includes: [testBigIntTypedArray.js]
-features: [BigInt, TypedArray]
+features: [ArrayBuffer, BigInt, TypedArray]
 ---*/
 
 testWithBigIntTypedArrayConstructors(function(TAConstructor) {
