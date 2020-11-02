@@ -11,6 +11,7 @@ info: |
   ...
   4. Let numberOffset be ? ToNumber(byteOffset).
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var obj = {

@@ -11,6 +11,7 @@ info: |
   ...
   7. Let size be the value of O's [[ByteLength]] internal slot.
   8. Return size.
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(12);

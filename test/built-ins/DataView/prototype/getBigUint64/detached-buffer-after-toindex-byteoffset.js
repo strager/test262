@@ -6,7 +6,7 @@ esid: sec-dataview.prototype.getbiguint64
 description: >
   Detached buffer is only checked after ToIndex(requestIndex)
 includes: [detachArrayBuffer.js]
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(8);

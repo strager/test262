@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.setbigint64
 description: >
   Index bounds checks are performed after value conversion.
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 var dataView = new DataView(new ArrayBuffer(8), 0);

@@ -28,7 +28,7 @@ info: |
   ...
   3. Let proto be ? Get(constructor, "prototype").
   ...
-features: [Reflect.construct, SharedArrayBuffer]
+features: [DataView, Reflect, Reflect.construct, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(8);

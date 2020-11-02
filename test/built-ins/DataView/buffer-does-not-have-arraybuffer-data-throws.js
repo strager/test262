@@ -13,7 +13,7 @@ info: |
   3. If buffer does not have an [[ArrayBufferData]] internal slot, throw a
   TypeError exception.
   ...
-features: [Int8Array]
+features: [ArrayBuffer, DataView, TypedArray]
 ---*/
 
 var obj = {

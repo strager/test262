@@ -15,7 +15,7 @@ info: |
 
   1. If Type(view) is not Object, throw a TypeError exception.
   ...
-features: [Symbol]
+features: [DataView, Symbol]
 ---*/
 
 var getUint32 = DataView.prototype.getUint32;

@@ -12,6 +12,7 @@ info: |
   3. If O does not have a [[DataView]] internal slot, throw a TypeError
   exception.
   ...
+features: [DataView]
 ---*/
 
 var getter = Object.getOwnPropertyDescriptor(

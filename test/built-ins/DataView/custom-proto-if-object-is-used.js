@@ -31,7 +31,7 @@ info: |
     b. Let proto be realm's intrinsic object named intrinsicDefaultProto.
   5. Return proto.
   ...
-features: [Reflect.construct]
+features: [ArrayBuffer, DataView, Reflect, Reflect.construct]
 ---*/
 
 var buffer = new ArrayBuffer(8);

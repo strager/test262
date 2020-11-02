@@ -17,6 +17,7 @@ info: |
     object, if it exists, has the attributes { [[Writable]]: false,
     [[Enumerable]]: false, [[Configurable]]: true }.
 includes: [propertyHelper.js]
+features: [DataView]
 ---*/
 
 assert.sameValue(DataView.prototype.getInt16.name, "getInt16");

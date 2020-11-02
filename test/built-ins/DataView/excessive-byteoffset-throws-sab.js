@@ -14,7 +14,7 @@ info: |
   internal slot.
   9. If offset > bufferByteLength, throw a RangeError exception.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var ab = new SharedArrayBuffer(1);

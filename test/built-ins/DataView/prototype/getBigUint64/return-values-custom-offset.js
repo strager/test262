@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.getbiguint64
 description: >
   Return values from Buffer using a custom offset
-features: [DataView, ArrayBuffer, DataView.prototype.setUint8, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(16);

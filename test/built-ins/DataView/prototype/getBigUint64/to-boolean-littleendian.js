@@ -3,7 +3,7 @@
 /*---
 description: Boolean littleEndian argument coerced in ToBoolean
 esid: sec-dataview.prototype.getbiguint64
-features: [ArrayBuffer, BigInt, DataView, DataView.prototype.setUint8, Symbol]
+features: [ArrayBuffer, BigInt, DataView, Symbol]
 ---*/
 
 var buffer = new ArrayBuffer(8);

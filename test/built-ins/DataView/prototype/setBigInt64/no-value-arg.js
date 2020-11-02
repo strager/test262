@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.setbigint64
 description: >
   Set value as undefined (cast to 0) when value argument is not present
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(8);

@@ -18,7 +18,7 @@ info: |
   ...
   4. Let getIndex be ? ToIndex(requestIndex).
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(8);

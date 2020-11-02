@@ -20,7 +20,7 @@ info: |
   Table 50 for Element Type type.
   14. If getIndex + elementSize > viewSize, throw a RangeError exception.
   ...
-features: [Uint8Array]
+features: [ArrayBuffer, DataView, TypedArray]
 ---*/
 
 var sample;

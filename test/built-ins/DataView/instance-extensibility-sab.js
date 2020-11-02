@@ -26,7 +26,7 @@ info: |
   ...
   5. Set the [[Extensible]] internal slot of obj to true.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 includes: [propertyHelper.js]
 ---*/
 

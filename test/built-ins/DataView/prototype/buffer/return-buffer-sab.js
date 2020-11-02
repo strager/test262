@@ -12,7 +12,7 @@ info: |
   ...
   5. Let buffer be the value of O's [[ViewedArrayBuffer]] internal slot.
   6. Return buffer.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(1);

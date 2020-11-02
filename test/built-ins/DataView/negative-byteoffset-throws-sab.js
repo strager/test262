@@ -21,7 +21,7 @@ info: |
     a. Let integerIndex be ? ToInteger(value).
     b. If integerIndex < 0, throw a RangeError exception.
     ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(2);

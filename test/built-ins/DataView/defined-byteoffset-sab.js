@@ -11,7 +11,7 @@ info: |
 
   ...
   17. Return O.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var sample;

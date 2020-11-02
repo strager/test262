@@ -11,6 +11,7 @@ info: |
   If IsDetachedBuffer(buffer) is true, throw a TypeError exception.
   ...
 includes: [detachArrayBuffer.js]
+features: [ArrayBuffer, DataView, arrow-function]
 ---*/
 
 let buffer = new ArrayBuffer(1);

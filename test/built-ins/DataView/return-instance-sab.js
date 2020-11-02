@@ -14,7 +14,7 @@ info: |
   « [[DataView]], [[ViewedArrayBuffer]], [[ByteLength]], [[ByteOffset]] »).
   ...
   17. Return O.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var ab, sample;

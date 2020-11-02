@@ -28,7 +28,7 @@ info: |
     c. Let index be ! ToLength(integerIndex).
     d. If SameValueZero(integerIndex, index) is false, throw a RangeError exception.
   3. Return index.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var obj1 = {

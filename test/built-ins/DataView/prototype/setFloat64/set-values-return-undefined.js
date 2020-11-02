@@ -34,6 +34,7 @@ info: |
   block[byteIndex].
   12. Return NormalCompletion(undefined).
 includes: [byteConversionValues.js]
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

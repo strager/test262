@@ -27,7 +27,7 @@ info: |
   ...
   3. Let proto be ? Get(constructor, "prototype").
   ...
-features: [Reflect.construct]
+features: [ArrayBuffer, DataView, Reflect, Reflect.construct]
 ---*/
 
 var buffer = new ArrayBuffer(8);

@@ -6,7 +6,7 @@ esid: sec-dataview.prototype.setbigint64
 description: >
   Detached buffer is checked before out of range byteOffset's value
 includes: [detachArrayBuffer.js]
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 var sample;

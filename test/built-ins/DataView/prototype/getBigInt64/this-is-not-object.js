@@ -15,7 +15,7 @@ info: |
 
   1. If Type(view) is not Object, throw a TypeError exception.
   ...
-features: [DataView, ArrayBuffer, Symbol, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, Symbol, arrow-function]
 ---*/
 
 var getBigInt64 = DataView.prototype.getBigInt64;

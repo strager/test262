@@ -17,7 +17,7 @@ info: |
   ...
   4. Let getIndex be ? ToNumber(requestIndex).
   ...
-features: [DataView, ArrayBuffer, Symbol, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, Symbol, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(1);

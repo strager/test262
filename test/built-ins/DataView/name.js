@@ -6,6 +6,7 @@ esid: sec-dataview-constructor
 description: >
   The name property of DataView is "DataView"
 includes: [propertyHelper.js]
+features: [DataView]
 ---*/
 
 assert.sameValue(DataView.name, "DataView", "The value of `DataView.name` is `'DataView'`");

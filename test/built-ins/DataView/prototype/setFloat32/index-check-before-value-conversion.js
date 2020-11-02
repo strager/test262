@@ -14,6 +14,7 @@ info: |
   ...
   4. Let getIndex be ? ToIndex(requestIndex).
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var dataView = new DataView(new ArrayBuffer(8), 0);

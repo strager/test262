@@ -12,7 +12,7 @@ info: |
   ...
   4. Let numberOffset be ? ToNumber(byteOffset).
   ...
-features: [SharedArrayBuffer, Symbol]
+features: [DataView, SharedArrayBuffer, Symbol]
 ---*/
 
 var s = Symbol("1");

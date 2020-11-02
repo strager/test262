@@ -15,7 +15,7 @@ info: |
   11. Else,
     a. Let viewByteLength be ? ToLength(byteLength).
   ...
-features: [SharedArrayBuffer, Symbol]
+features: [DataView, SharedArrayBuffer, Symbol]
 ---*/
 
 var buffer = new SharedArrayBuffer(8);

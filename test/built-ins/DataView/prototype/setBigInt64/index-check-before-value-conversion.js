@@ -6,7 +6,7 @@ esid: sec-dataview.prototype.setbigint64
 description: >
   RangeError exception for negative or non-integral index is thrown before
   the value conversion.
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 var dataView = new DataView(new ArrayBuffer(8), 0);

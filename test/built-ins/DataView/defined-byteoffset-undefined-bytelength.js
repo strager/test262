@@ -13,6 +13,7 @@ info: |
     a. Let viewByteLength be bufferByteLength - offset.
   ...
   17. Return O.
+features: [ArrayBuffer, DataView]
 ---*/
 
 var sample;

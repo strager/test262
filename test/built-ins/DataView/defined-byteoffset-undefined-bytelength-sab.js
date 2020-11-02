@@ -14,7 +14,7 @@ info: |
     a. Let viewByteLength be bufferByteLength - offset.
   ...
   17. Return O.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var sample;

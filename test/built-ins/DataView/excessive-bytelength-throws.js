@@ -16,6 +16,7 @@ info: |
     b. If offset+viewByteLength > bufferByteLength, throw a RangeError
     exception.
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(3);

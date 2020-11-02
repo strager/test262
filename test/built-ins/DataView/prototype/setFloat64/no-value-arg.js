@@ -33,7 +33,7 @@ info: |
   11. Store the individual bytes of rawBytes into block, in order, starting at
   block[byteIndex].
   12. Return NormalCompletion(undefined).
-features: [DataView.prototype.getFloat64]
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

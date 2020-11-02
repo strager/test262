@@ -25,6 +25,7 @@ info: |
   ...
   8. If isLittleEndian is false, reverse the order of the elements of rawValue.
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(6);

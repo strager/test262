@@ -21,7 +21,7 @@ info: |
   Table 50 for Element Type type.
   13. If getIndex + elementSize > viewSize, throw a RangeError exception.
   ...
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var sample;

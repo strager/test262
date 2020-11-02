@@ -10,6 +10,7 @@ info: |
 
   Unless specified otherwise, the [[Extensible]] internal slot of a built-in
   object initially has the value true.
+features: [DataView]
 ---*/
 
 assert.sameValue(Object.isExtensible(DataView), true);

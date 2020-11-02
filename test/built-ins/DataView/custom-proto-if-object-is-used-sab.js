@@ -32,7 +32,7 @@ info: |
     b. Let proto be realm's intrinsic object named intrinsicDefaultProto.
   5. Return proto.
   ...
-features: [Reflect.construct, SharedArrayBuffer]
+features: [DataView, Reflect, Reflect.construct, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(8);

@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.getbiguint64
 description: >
   Throws a RangeError if getIndex + elementSize > viewSize
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var sample;

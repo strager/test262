@@ -4,7 +4,7 @@
 /*---
 esid: sec-dataview.prototype.setbigint64
 description: Throws a TypeError if this is not Object
-features: [DataView, ArrayBuffer, Symbol, BigInt]
+features: [ArrayBuffer, BigInt, DataView, Symbol]
 ---*/
 
 var setBigInt64 = DataView.prototype.setBigInt64;

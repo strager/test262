@@ -19,7 +19,7 @@ info: |
   9. If IsDetachedBuffer(buffer) is true, throw a TypeError exception.
   ...
 includes: [detachArrayBuffer.js]
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(1);

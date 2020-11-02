@@ -13,6 +13,7 @@ info: |
   internal slot.
   9. If offset > bufferByteLength, throw a RangeError exception.
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var ab = new ArrayBuffer(1);

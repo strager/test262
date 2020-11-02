@@ -6,7 +6,7 @@ esid: sec-dataview.prototype.setbigint64
 description: >
   Detached buffer is checked after ToBigInt(value)
 includes: [detachArrayBuffer.js]
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

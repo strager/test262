@@ -10,7 +10,7 @@ info: |
   1. Let O be the this value.
   2. If Type(O) is not Object, throw a TypeError exception.
   ...
-features: [Symbol]
+features: [DataView, Symbol]
 ---*/
 
 var getter = Object.getOwnPropertyDescriptor(

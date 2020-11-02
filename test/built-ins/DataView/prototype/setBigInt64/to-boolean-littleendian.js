@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.setbigint64
 description: >
   Boolean littleEndian argument coerced in ToBoolean
-features: [DataView, ArrayBuffer, Symbol, BigInt]
+features: [ArrayBuffer, BigInt, DataView, Symbol]
 ---*/
 
 var buffer = new ArrayBuffer(8);

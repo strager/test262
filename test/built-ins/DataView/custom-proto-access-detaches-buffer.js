@@ -14,7 +14,7 @@ info: |
   Verify that a final is-detached check is performed before the new instance is
   returned.
 includes: [detachArrayBuffer.js]
-features: [Reflect.construct]
+features: [ArrayBuffer, DataView, Reflect, Reflect.construct]
 ---*/
 
 var buffer = new ArrayBuffer(8);

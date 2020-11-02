@@ -14,7 +14,7 @@ info: |
 
   1. If Type(view) is not Object, throw a TypeError exception.
   ...
-features: [Symbol]
+features: [DataView, Symbol]
 ---*/
 
 var setUint8 = DataView.prototype.setUint8;

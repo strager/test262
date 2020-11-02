@@ -17,6 +17,7 @@ info: |
   ...
   7. Let numberValue be ? ToNumber(value).
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(4);

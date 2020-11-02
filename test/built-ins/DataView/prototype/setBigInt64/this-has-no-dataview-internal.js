@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.setbigint64
 description: >
   Throws a TypeError if this does not have a [[DataView]] internal slot
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView, TypedArray]
 ---*/
 
 var setBigInt64 = DataView.prototype.setBigInt64;

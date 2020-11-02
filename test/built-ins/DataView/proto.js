@@ -8,6 +8,7 @@ description: >
 info: |
   The value of the [[Prototype]] internal slot of the DataView constructor is
   the intrinsic object %FunctionPrototype%.
+features: [DataView]
 ---*/
 
 assert.sameValue(Object.getPrototypeOf(DataView), Function.prototype);

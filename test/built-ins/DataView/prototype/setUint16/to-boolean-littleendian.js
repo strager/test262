@@ -17,7 +17,7 @@ info: |
   ...
   15. Let bufferIndex be getIndex + viewOffset.
   16. Return SetValueInBuffer(buffer, bufferIndex, type, numberValue, isLittleEndian).
-features: [DataView.prototype.getUint16, Symbol]
+features: [ArrayBuffer, DataView, Symbol]
 ---*/
 
 var buffer = new ArrayBuffer(8);

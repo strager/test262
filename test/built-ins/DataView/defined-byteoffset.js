@@ -10,6 +10,7 @@ info: |
 
   ...
   17. Return O.
+features: [ArrayBuffer, DataView]
 ---*/
 
 var sample;

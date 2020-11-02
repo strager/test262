@@ -21,7 +21,7 @@ info: |
   function object has the attributes { [[Writable]]: false,
   [[Enumerable]]: false, [[Configurable]]: true }.
 includes: [propertyHelper.js]
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 verifyProperty(DataView.prototype.getBigInt64, "length", {

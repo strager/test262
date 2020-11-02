@@ -18,7 +18,7 @@ info: |
   7. If IsConstructor(constructor) is false, throw a TypeError exception.
   ...
 includes: [isConstructor.js]
-features: [Reflect.construct, DataView, arrow-function, ArrayBuffer]
+features: [ArrayBuffer, DataView, Reflect.construct, arrow-function]
 ---*/
 
 assert.sameValue(

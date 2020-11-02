@@ -20,6 +20,7 @@ info: |
     12. Let elementSize be the Number value of the Element Size value specified in Table 49 for Element Type type.
     13. If getIndex + elementSize > viewSize, throw a RangeError exception.
     ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var dataView = new DataView(new ArrayBuffer(8), 0);

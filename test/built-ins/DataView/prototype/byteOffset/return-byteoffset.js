@@ -11,6 +11,7 @@ info: |
   ...
   7. Let offset be the value of O's [[ByteOffset]] internal slot.
   8. Return offset.
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(12);

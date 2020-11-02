@@ -26,6 +26,7 @@ info: |
   5. Set the [[Extensible]] internal slot of obj to true.
   ...
 includes: [propertyHelper.js]
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

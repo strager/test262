@@ -17,7 +17,7 @@ info: |
   ...
   4. Let getIndex be ? ToIndex(requestIndex).
   ...
-features: [DataView.prototype.setUint8]
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

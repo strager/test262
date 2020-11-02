@@ -17,7 +17,7 @@ info: |
   ...
   4. Let numberIndex be ? ToNumber(requestIndex).
   ...
-features: [Symbol]
+features: [ArrayBuffer, DataView, Symbol]
 ---*/
 
 var buffer = new ArrayBuffer(1);

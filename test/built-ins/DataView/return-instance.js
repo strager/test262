@@ -13,6 +13,7 @@ info: |
   « [[DataView]], [[ViewedArrayBuffer]], [[ByteLength]], [[ByteOffset]] »).
   ...
   17. Return O.
+features: [ArrayBuffer, DataView]
 ---*/
 
 var ab, sample;

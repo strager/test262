@@ -14,7 +14,7 @@ info: |
   5. Let offset be ToInteger(numberOffset).
   6. If numberOffset ≠ offset or offset < 0, throw a RangeError exception.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var ab = new SharedArrayBuffer(42);

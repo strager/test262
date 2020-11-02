@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.getbiguint64
 description: >
   Return abrupt from ToNumber(symbol byteOffset)
-features: [DataView, ArrayBuffer, Symbol, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, Symbol, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(1);

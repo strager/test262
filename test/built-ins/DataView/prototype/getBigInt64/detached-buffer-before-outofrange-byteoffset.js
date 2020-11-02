@@ -21,7 +21,7 @@ info: |
   11. If getIndex + elementSize > viewSize, throw a RangeError exception.
   ...
 includes: [detachArrayBuffer.js]
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var sample;

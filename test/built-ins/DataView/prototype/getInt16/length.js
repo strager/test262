@@ -21,6 +21,7 @@ info: |
     object has the attributes { [[Writable]]: false, [[Enumerable]]: false,
     [[Configurable]]: true }.
 includes: [propertyHelper.js]
+features: [DataView]
 ---*/
 
 assert.sameValue(DataView.prototype.getInt16.length, 1);

@@ -27,7 +27,7 @@ info: |
     arranged in big endian order. Otherwise, the bytes are arranged in little
     endian order. [...]
   ...
-features: [DataView.prototype.getFloat64, Symbol]
+features: [ArrayBuffer, DataView, Symbol]
 ---*/
 
 var buffer = new ArrayBuffer(8);

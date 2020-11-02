@@ -12,7 +12,7 @@ info: |
   ...
   7. Let size be the value of O's [[ByteLength]] internal slot.
   8. Return size.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(12);

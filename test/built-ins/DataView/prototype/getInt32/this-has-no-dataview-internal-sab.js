@@ -19,7 +19,7 @@ info: |
   2. If view does not have a [[DataView]] internal slot, throw a TypeError
   exception.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer, TypedArray]
 ---*/
 
 var getInt32 = DataView.prototype.getInt32;

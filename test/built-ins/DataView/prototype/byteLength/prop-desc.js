@@ -14,6 +14,7 @@ info: |
   Section 17: Every accessor property described in clauses 18 through 26 and in
   Annex B.2 has the attributes {[[Enumerable]]: false, [[Configurable]]: true }
 includes: [propertyHelper.js]
+features: [DataView]
 ---*/
 
 var desc = Object.getOwnPropertyDescriptor(DataView.prototype, "byteLength");

@@ -17,7 +17,7 @@ info: |
     b. If offset+viewByteLength > bufferByteLength, throw a RangeError
     exception.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(3);

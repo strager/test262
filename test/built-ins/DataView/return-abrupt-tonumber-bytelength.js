@@ -14,6 +14,7 @@ info: |
   11. Else,
     a. Let viewByteLength be ? ToLength(byteLength).
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

@@ -26,7 +26,7 @@ info: |
   ...
   8. If isLittleEndian is false, reverse the order of the elements of rawValue.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(12);

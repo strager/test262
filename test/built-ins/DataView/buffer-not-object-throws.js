@@ -11,7 +11,7 @@ info: |
   1. If NewTarget is undefined, throw a TypeError exception.
   2. If Type(buffer) is not Object, throw a TypeError exception.
   ...
-features: [Symbol]
+features: [DataView, Symbol]
 ---*/
 
 var obj = {

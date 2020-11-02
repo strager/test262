@@ -12,6 +12,7 @@ info: |
   14. Set O's [[ViewedArrayBuffer]] internal slot to buffer.
   ...
   17. Return O.
+features: [ArrayBuffer, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(8);

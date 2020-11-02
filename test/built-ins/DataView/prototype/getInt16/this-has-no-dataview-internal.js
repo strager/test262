@@ -18,7 +18,7 @@ info: |
   2. If view does not have a [[DataView]] internal slot, throw a TypeError
   exception.
   ...
-features: [Int8Array]
+features: [ArrayBuffer, DataView, TypedArray]
 ---*/
 
 var getInt16 = DataView.prototype.getInt16;

@@ -6,7 +6,7 @@ esid: sec-dataview.prototype.getbiguint64
 description: >
   Throws a TypeError if buffer is detached
 includes: [detachArrayBuffer.js]
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(1);

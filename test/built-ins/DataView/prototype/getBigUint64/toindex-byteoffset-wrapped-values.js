@@ -3,7 +3,7 @@
 /*---
 description: ToIndex conversions on byteOffset
 esid: sec-dataview.prototype.getbiguint64
-features: [ArrayBuffer, BigInt, DataView, DataView.prototype.setUint8, Symbol.toPrimitive, computed-property-names]
+features: [ArrayBuffer, BigInt, DataView, Symbol, Symbol.toPrimitive, computed-property-names]
 ---*/
 
 var buffer = new ArrayBuffer(12);

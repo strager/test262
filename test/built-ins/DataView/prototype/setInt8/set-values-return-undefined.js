@@ -23,7 +23,7 @@ info: |
   11. Store the individual bytes of rawBytes into block, in order, starting at
   block[byteIndex].
   12. Return NormalCompletion(undefined).
-features: [DataView.prototype.getInt8]
+features: [ArrayBuffer, DataView]
 includes: [byteConversionValues.js]
 ---*/
 

@@ -16,7 +16,7 @@ info: |
   ...
   4. Let getIndex be ? ToIndex(requestIndex).
   ...
-features: [Uint8Array]
+features: [ArrayBuffer, DataView, TypedArray]
 ---*/
 
 var buffer = new ArrayBuffer(2);

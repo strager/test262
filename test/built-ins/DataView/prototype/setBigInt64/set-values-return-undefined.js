@@ -6,7 +6,7 @@ esid: sec-dataview.prototype.setbigint64
 description: >
   Set values and return undefined
 includes: [byteConversionValues.js]
-features: [DataView, ArrayBuffer, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, arrow-function]
 ---*/
 
 var buffer = new ArrayBuffer(8);

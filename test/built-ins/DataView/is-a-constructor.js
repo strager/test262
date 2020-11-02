@@ -16,7 +16,7 @@ info: |
   If argument has a [[Construct]] internal method, return true.
   Return false.
 includes: [isConstructor.js]
-features: [Reflect.construct, DataView, ArrayBuffer]
+features: [ArrayBuffer, DataView, Reflect.construct]
 ---*/
 
 assert.sameValue(isConstructor(DataView), true, 'isConstructor(DataView) must return true');

@@ -18,7 +18,7 @@ info: |
   2. If view does not have a [[DataView]] internal slot, throw a TypeError
   exception.
   ...
-features: [DataView, ArrayBuffer, Int8Array, BigInt, arrow-function]
+features: [ArrayBuffer, BigInt, DataView, TypedArray, arrow-function]
 ---*/
 
 var getBigInt64 = DataView.prototype.getBigInt64;

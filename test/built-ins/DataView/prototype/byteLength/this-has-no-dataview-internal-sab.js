@@ -15,7 +15,7 @@ info: |
   3. If O does not have a [[DataView]] internal slot, throw a TypeError
   exception.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer, TypedArray]
 ---*/
 
 var getter = Object.getOwnPropertyDescriptor(

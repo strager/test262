@@ -11,7 +11,7 @@ info: |
   ...
   4. Let numberOffset be ? ToNumber(byteOffset).
   ...
-features: [Symbol]
+features: [ArrayBuffer, DataView, Symbol]
 ---*/
 
 var s = Symbol("1");

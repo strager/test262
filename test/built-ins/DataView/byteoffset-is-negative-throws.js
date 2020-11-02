@@ -13,6 +13,7 @@ info: |
   5. Let offset be ToInteger(numberOffset).
   6. If numberOffset ≠ offset or offset < 0, throw a RangeError exception.
   ...
+features: [ArrayBuffer, DataView]
 ---*/
 
 var ab = new ArrayBuffer(42);

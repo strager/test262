@@ -12,7 +12,7 @@ info: |
   ...
   7. Let offset be the value of O's [[ByteOffset]] internal slot.
   8. Return offset.
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var buffer = new SharedArrayBuffer(12);

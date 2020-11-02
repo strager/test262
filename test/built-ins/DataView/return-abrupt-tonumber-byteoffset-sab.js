@@ -12,7 +12,7 @@ info: |
   ...
   4. Let numberOffset be ? ToNumber(byteOffset).
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer]
 ---*/
 
 var obj = {

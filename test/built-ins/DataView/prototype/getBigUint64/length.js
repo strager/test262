@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.getbiguint64
 description: DataView.prototype.getBigUint64.length property descriptor
 includes: [propertyHelper.js]
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 verifyProperty(DataView.prototype.getBigUint64, "length", {

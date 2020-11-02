@@ -14,7 +14,7 @@ info: |
   3. If buffer does not have an [[ArrayBufferData]] internal slot, throw a
   TypeError exception.
   ...
-features: [SharedArrayBuffer]
+features: [DataView, SharedArrayBuffer, TypedArray]
 ---*/
 
 var obj = {

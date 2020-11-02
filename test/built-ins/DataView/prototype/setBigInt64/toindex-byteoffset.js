@@ -5,7 +5,7 @@
 esid: sec-dataview.prototype.setbigint64
 description: >
   ToIndex conversions on byteOffset
-features: [DataView, ArrayBuffer, BigInt]
+features: [ArrayBuffer, BigInt, DataView]
 ---*/
 
 var buffer = new ArrayBuffer(12);
