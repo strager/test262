@@ -13,7 +13,7 @@ negative:
 
 (
 //- assignmenttarget
-async function () {}
+async function* () {}
 //- operator
 =
 //- value
