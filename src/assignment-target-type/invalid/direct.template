@@ -10,6 +10,6 @@ info: |
 $DONOTEVALUATE();
 
 function _() {
-  /*{ assignmenttarget }*/ /*{ operator }*/ /*{ value }*/;
+  (/*{ assignmenttarget }*/ /*{ operator }*/ /*{ value }*/);
 }
 

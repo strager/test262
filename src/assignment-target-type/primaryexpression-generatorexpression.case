@@ -11,9 +11,12 @@ negative:
   type: SyntaxError
 ---*/
 
+(
 //- assignmenttarget
 function * () {}
 //- operator
 =
 //- value
 1
+//- ignore
+)

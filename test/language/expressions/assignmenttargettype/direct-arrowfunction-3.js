@@ -18,6 +18,6 @@ info: |
 $DONOTEVALUATE();
 
 function _() {
-  ((x) => x) = 1;
+  (((x) => x) = 1);
 }
 
